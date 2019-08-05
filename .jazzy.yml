@@ -1,0 +1,8 @@
+author: Streetography
+author_url: https://twitter.com/rahulkatariya91
+github_url: https://github.com/mikelanza/STPhotoCore
+root_url: https://mikelanza.github.io/STPhotoCore/
+module: STPhotoCore
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'STPhotoCore.xcworkspace', -scheme, 'STPhotoCore-iOS']
