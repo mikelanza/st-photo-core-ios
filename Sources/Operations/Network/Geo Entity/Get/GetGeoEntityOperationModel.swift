@@ -16,12 +16,12 @@ public enum GetGeoEntityOperationModelError: LocalizedError {
 
 public enum GetGeoEntityOperationModel {
     public struct Request {
-        let entityId: String
-        var entity: EntityLevel
-        var page: Int
-        var limit: Int
-        var userId: String?
-        var collectionId: String?
+        public let entityId: String
+        public var entity: EntityLevel
+        public var page: Int
+        public var limit: Int
+        public var userId: String?
+        public var collectionId: String?
         
         public init(entityId: String, entity: EntityLevel, page: Int, limit: Int, userId: String?, collectionId: String?) {
             self.entityId = entityId
@@ -42,7 +42,7 @@ public enum GetGeoEntityOperationModel {
     }
     
     public struct DecodedResponse: Codable {
-        let result: [Entity]
+        public let result: [Entity]
         
         public init(result: [Entity]) {
             self.result = result
