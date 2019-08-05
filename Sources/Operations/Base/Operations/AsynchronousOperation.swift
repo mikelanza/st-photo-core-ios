@@ -56,7 +56,7 @@ open class AsynchronousOperation: Operation {
     /// Complete the operation
     ///
     /// This will result in the appropriate KVN of isFinished and isExecuting
-    public func completeOperation() {
+    open func completeOperation() {
         if isExecuting {
             isExecuting = false
         }

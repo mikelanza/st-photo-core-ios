@@ -22,6 +22,15 @@ public enum GetGeoEntityOperationModel {
         var limit: Int
         var userId: String?
         var collectionId: String?
+        
+        public init(entityId: String, entity: EntityLevel, page: Int, limit: Int, userId: String?, collectionId: String?) {
+            self.entityId = entityId
+            self.entity = entity
+            self.page = page
+            self.limit = limit
+            self.userId = userId
+            self.collectionId = collectionId
+        }
     }
     
     public struct Response {

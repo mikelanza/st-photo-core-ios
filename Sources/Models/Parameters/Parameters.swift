@@ -12,7 +12,7 @@ public typealias KeyValue = (key: String, value: String)
 
 public class Parameters {
     public struct Keys {
-        static let
+        public static let
         basemap = "basemap",
         shadow = "shadow",
         sort = "sort",

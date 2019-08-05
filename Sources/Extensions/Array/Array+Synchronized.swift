@@ -12,6 +12,10 @@ import Foundation
 public class SynchronizedArray<Element> {
     fileprivate let queue = DispatchQueue(label: "com.streetography.st.photo.core.ios.STPhotoCore.SynchronizedArray", attributes: .concurrent)
     fileprivate var array = [Element]()
+    
+    public init() {
+        
+    }
 }
 
 // MARK: - Properties

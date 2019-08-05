@@ -10,9 +10,9 @@ import Foundation
 import MapKit
 
 public struct TileCoordinate: Equatable {
-    let zoom: Int
-    let x: Int
-    let y: Int
+    public let zoom: Int
+    public let x: Int
+    public let y: Int
     
     public static func == (lhs: TileCoordinate, rhs: TileCoordinate) -> Bool {
         return

@@ -11,7 +11,12 @@ import Foundation
 public enum GetPhotoOperationModel {
     public struct Request {
         public let photoId: String
-        public let includeUser: Bool = true
+        public let includeUser: Bool
+        
+        public init(photoId: String, includeUser: Bool = true) {
+            self.photoId = photoId
+            self.includeUser = includeUser
+        }
     }
     
     public struct Response: Codable {

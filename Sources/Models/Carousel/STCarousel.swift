@@ -12,12 +12,23 @@ public class STCarousel {
     public struct Photo {
         public var id: String
         public var image: UIImage?
+        
+        public init(id: String, image: UIImage?) {
+            self.id = id
+            self.image = image
+        }
     }
     
     public struct Label {
         public var latitude: Double
         public var longitude: Double
         public var radius: Double
+        
+        public init(latitude: Double, longitude: Double, radius: Double) {
+            self.latitude = latitude
+            self.longitude = longitude
+            self.radius = radius
+        }
         
         public func location() -> STLocation {
             return STLocation(latitude: self.latitude, longitude: self.longitude)
