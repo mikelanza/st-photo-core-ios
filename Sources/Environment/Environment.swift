@@ -16,6 +16,7 @@ public enum Environment {
         static let tilesJpegURL = "TILES_JPEG_URL"
         static let getCommentsURL = "GET_COMMENTS_URL"
         static let getCollectionURL = "GET_COLLECTION_URL"
+        static let getLocationEntitiesURL = "GET_LOCATION_ENTITIES_URL"
     }
     
     private static let infoDictionary: [String: Any]? = {
@@ -54,5 +55,9 @@ public enum Environment {
     
     public static let getCollectionURL: String = {
         return Environment.urlStringFor(Keys.getCollectionURL) ?? "https://prod.streetography.com/v1/legacy-geo/collection"
+    }()
+    
+    public static let getLocationEntitiesURL: String = {
+        return Environment.urlStringFor(Keys.getLocationEntitiesURL) ?? "https://prod.streetography.com/v1/legacy-geo/point"
     }()
 }

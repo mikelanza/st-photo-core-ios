@@ -31,7 +31,7 @@ public class GetPhotoOperationRequestBuilder {
     
     private func parameters() -> [String: String] {
         return [
-            "apisecret": "k9f2Hje7DM03Jyhf73hJ",
+            "apisecret": EndpointsBuilder.apiSecret,
             "includeOwner": String(self.model.includeUser)
         ]
     }

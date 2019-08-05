@@ -30,4 +30,8 @@ public final class EndpointsBuilder {
     public func getGeoEntityEndpoint() -> String {
         return Environment.bboxmongoURL
     }
+    
+    public func getLocationEntitiesEndpoint() -> String {
+        return Environment.getLocationEntitiesURL
+    }
 }
