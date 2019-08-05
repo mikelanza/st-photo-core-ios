@@ -10,7 +10,7 @@
 [![Travis](https://img.shields.io/travis/mikelanza/st-photo-core-ios/master.svg)](https://travis-ci.org/mikelanza/st-photo-core-ios/branches)
 [![SwiftFrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/SwiftFrameworkTemplate)
 
-Common code
+Common code for STPhotoMap, STPhotoDetails frameworks for iOS
 
 - [Requirements](#requirements)
 - [Installation](#installation)
