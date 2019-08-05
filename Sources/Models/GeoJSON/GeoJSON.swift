@@ -55,6 +55,10 @@ public protocol GeoJSONProtocol {
 public struct GeoJSON: GeoJSONProtocol {
     internal static let parser = GeoJSONParser()
     
+    public init() {
+        
+    }
+    
     public func parse(geoJSON: GeoJSONDictionary) -> GeoJSONObject? {
         return GeoJSON.parser.geoJSONObject(from: geoJSON)
     }

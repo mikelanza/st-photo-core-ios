@@ -41,11 +41,15 @@ public enum GetGeoEntityOperationModel {
         }
     }
     
-    struct DecodedResponse: Codable {
+    public struct DecodedResponse: Codable {
         let result: [Entity]
+        
+        public init(result: [Entity]) {
+            self.result = result
+        }
     }
     
-    struct Entity: Codable {
+    public struct Entity: Codable {
         var id: Int?
         
         var entity: String?
@@ -85,7 +89,7 @@ public enum GetGeoEntityOperationModel {
             case photos
         }
         
-        init(from decoder: Decoder) throws {
+        public init(from decoder: Decoder) throws {
             let values = try decoder.container(keyedBy: CodingKeys.self)
             
             self.id = try values.decodeIfPresent(Int.self, forKey: .id)
