@@ -81,6 +81,7 @@
 		28CAA78322F81D9200C1B69F /* OperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA77422F81D9200C1B69F /* OperationError.swift */; };
 		28CAA78622F824F600C1B69F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA78522F824F500C1B69F /* Environment.swift */; };
 		28CAA78922F8257200C1B69F /* EndpointsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA78822F8257200C1B69F /* EndpointsBuilder.swift */; };
+		28E9303D22F88370001D5ADB /* STPhoto+ImageUrlOfSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9303C22F88370001D5ADB /* STPhoto+ImageUrlOfSize.swift */; };
 		3549BB501DA38A2000C63030 /* STPhotoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* STPhotoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB511DA38A2000C63030 /* STPhotoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* STPhotoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* STPhotoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* STPhotoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -196,6 +197,7 @@
 		28CAA77422F81D9200C1B69F /* OperationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationError.swift; sourceTree = "<group>"; };
 		28CAA78522F824F500C1B69F /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		28CAA78822F8257200C1B69F /* EndpointsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsBuilder.swift; sourceTree = "<group>"; };
+		28E9303C22F88370001D5ADB /* STPhoto+ImageUrlOfSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "STPhoto+ImageUrlOfSize.swift"; sourceTree = "<group>"; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* STPhotoCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoCore.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* STPhotoCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STPhotoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,6 +273,7 @@
 		28CAA6B622F7F94F00C1B69F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				28E9303B22F8835C001D5ADB /* STPhoto */,
 				28CAA6B722F7F94F00C1B69F /* MKPolyline */,
 				28CAA6B922F7F94F00C1B69F /* EntityLevel */,
 				28CAA6BB22F7F94F00C1B69F /* DateFormatter */,
@@ -738,6 +741,14 @@
 			path = Get;
 			sourceTree = "<group>";
 		};
+		28E9303B22F8835C001D5ADB /* STPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				28E9303C22F88370001D5ADB /* STPhoto+ImageUrlOfSize.swift */,
+			);
+			path = STPhoto;
+			sourceTree = "<group>";
+		};
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
@@ -1135,6 +1146,7 @@
 				28CAA75022F7F99C00C1B69F /* Parameters.swift in Sources */,
 				28CAA6F522F7F94F00C1B69F /* MKMapView+VisibleTiles.swift in Sources */,
 				28CAA6FA22F7F94F00C1B69F /* GeoJSONFeature+ContainsLocation.swift in Sources */,
+				28E9303D22F88370001D5ADB /* STPhoto+ImageUrlOfSize.swift in Sources */,
 				28CAA70422F7F94F00C1B69F /* URL+Parameters.swift in Sources */,
 				28CAA78122F81D9200C1B69F /* GetPhotoOperationRequestBuilder.swift in Sources */,
 				28CAA74E22F7F99C00C1B69F /* GeoEntity.swift in Sources */,

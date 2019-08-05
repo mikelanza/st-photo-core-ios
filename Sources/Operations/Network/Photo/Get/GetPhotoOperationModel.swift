@@ -21,5 +21,9 @@ public enum GetPhotoOperationModel {
     
     public struct Response: Codable {
         public let photo: STPhoto
+        
+        public init(photo: STPhoto) {
+            self.photo = photo
+        }
     }
 }
