@@ -7,6 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28CAA6EF22F7F94F00C1B69F /* MKPolyline+MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6B822F7F94F00C1B69F /* MKPolyline+MapPoint.swift */; };
+		28CAA6F022F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6BA22F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift */; };
+		28CAA6F122F7F94F00C1B69F /* DateFormatter+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6BC22F7F94F00C1B69F /* DateFormatter+ISO8601.swift */; };
+		28CAA6F222F7F94F00C1B69F /* MKMapView+OuterTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6BE22F7F94F00C1B69F /* MKMapView+OuterTiles.swift */; };
+		28CAA6F322F7F94F00C1B69F /* MKMapView+ZoomLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6BF22F7F94F00C1B69F /* MKMapView+ZoomLevel.swift */; };
+		28CAA6F422F7F94F00C1B69F /* MKMapView+BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C022F7F94F00C1B69F /* MKMapView+BoundingBox.swift */; };
+		28CAA6F522F7F94F00C1B69F /* MKMapView+VisibleTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C122F7F94F00C1B69F /* MKMapView+VisibleTiles.swift */; };
+		28CAA6F622F7F94F00C1B69F /* Array+Tail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C322F7F94F00C1B69F /* Array+Tail.swift */; };
+		28CAA6F722F7F94F00C1B69F /* Array+FeatureAtLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C422F7F94F00C1B69F /* Array+FeatureAtLocation.swift */; };
+		28CAA6F822F7F94F00C1B69F /* Array+Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C522F7F94F00C1B69F /* Array+Synchronized.swift */; };
+		28CAA6F922F7F94F00C1B69F /* Array+BestFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C622F7F94F00C1B69F /* Array+BestFeature.swift */; };
+		28CAA6FA22F7F94F00C1B69F /* GeoJSONFeature+ContainsLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C822F7F94F00C1B69F /* GeoJSONFeature+ContainsLocation.swift */; };
+		28CAA6FB22F7F94F00C1B69F /* GeoJSONFeature+EntityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6C922F7F94F00C1B69F /* GeoJSONFeature+EntityLevel.swift */; };
+		28CAA6FC22F7F94F00C1B69F /* MKTileOverlayPath+Subtiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6CB22F7F94F00C1B69F /* MKTileOverlayPath+Subtiles.swift */; };
+		28CAA6FD22F7F94F00C1B69F /* GeoJSONObject+EntityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6CD22F7F94F00C1B69F /* GeoJSONObject+EntityLevel.swift */; };
+		28CAA6FE22F7F94F00C1B69F /* GeoJSONObject+Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6CE22F7F94F00C1B69F /* GeoJSONObject+Features.swift */; };
+		28CAA6FF22F7F94F00C1B69F /* MKClusterAnnotation+SameCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6D022F7F94F00C1B69F /* MKClusterAnnotation+SameCoordinate.swift */; };
+		28CAA70022F7F94F00C1B69F /* DefaultReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6D222F7F94F00C1B69F /* DefaultReuseIdentifier.swift */; };
+		28CAA70222F7F94F00C1B69F /* STCarousel+ShouldChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6D622F7F94F00C1B69F /* STCarousel+ShouldChange.swift */; };
+		28CAA70422F7F94F00C1B69F /* URL+Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6D922F7F94F00C1B69F /* URL+Parameters.swift */; };
+		28CAA70522F7F94F00C1B69F /* UIViewController+Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6DB22F7F94F00C1B69F /* UIViewController+Show.swift */; };
+		28CAA70622F7F94F00C1B69F /* MKMapRect+BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6DD22F7F94F00C1B69F /* MKMapRect+BoundingBox.swift */; };
+		28CAA70722F7F94F00C1B69F /* MKMapRect+OverlapPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6DE22F7F94F00C1B69F /* MKMapRect+OverlapPercentage.swift */; };
+		28CAA70822F7F94F00C1B69F /* MKMapRect+Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6DF22F7F94F00C1B69F /* MKMapRect+Area.swift */; };
+		28CAA70922F7F94F00C1B69F /* MKMapRect+Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6E022F7F94F00C1B69F /* MKMapRect+Tiles.swift */; };
+		28CAA70A22F7F94F00C1B69F /* MKMapRect+SpiralTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6E122F7F94F00C1B69F /* MKMapRect+SpiralTiles.swift */; };
+		28CAA70B22F7F94F00C1B69F /* MKMapRect+Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6E222F7F94F00C1B69F /* MKMapRect+Coordinates.swift */; };
+		28CAA70C22F7F94F00C1B69F /* CLLocationCoordinate2D+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6E422F7F94F00C1B69F /* CLLocationCoordinate2D+Equatable.swift */; };
+		28CAA70D22F7F94F00C1B69F /* CLLocationCoordinate2D+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6E522F7F94F00C1B69F /* CLLocationCoordinate2D+Distance.swift */; };
+		28CAA70E22F7F94F00C1B69F /* GeoJSONGeometry+ContainsLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6E722F7F94F00C1B69F /* GeoJSONGeometry+ContainsLocation.swift */; };
+		28CAA70F22F7F94F00C1B69F /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6E922F7F94F00C1B69F /* String+Localized.swift */; };
+		28CAA71222F7F94F00C1B69F /* MKPolygon+MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6EE22F7F94F00C1B69F /* MKPolygon+MapPoint.swift */; };
+		28CAA73C22F7F99C00C1B69F /* GeoJSONBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA71522F7F99C00C1B69F /* GeoJSONBoundingBox.swift */; };
+		28CAA73D22F7F99C00C1B69F /* GeoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA71722F7F99C00C1B69F /* GeoJSONParser.swift */; };
+		28CAA73E22F7F99C00C1B69F /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA71822F7F99C00C1B69F /* GeoJSON.swift */; };
+		28CAA73F22F7F99C00C1B69F /* GeoJSONType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA71922F7F99C00C1B69F /* GeoJSONType.swift */; };
+		28CAA74022F7F99C00C1B69F /* GeoJSONFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA71B22F7F99C00C1B69F /* GeoJSONFeature.swift */; };
+		28CAA74122F7F99C00C1B69F /* PhotoProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA71D22F7F99C00C1B69F /* PhotoProperties.swift */; };
+		28CAA74222F7F99C00C1B69F /* GeoJSONFeatureCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA71E22F7F99C00C1B69F /* GeoJSONFeatureCollection.swift */; };
+		28CAA74322F7F99C00C1B69F /* GeoJSONMultiLineString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72022F7F99C00C1B69F /* GeoJSONMultiLineString.swift */; };
+		28CAA74422F7F99C00C1B69F /* GeoJSONMultiPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72122F7F99C00C1B69F /* GeoJSONMultiPoint.swift */; };
+		28CAA74522F7F99C00C1B69F /* GeoJSONLineString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72222F7F99C00C1B69F /* GeoJSONLineString.swift */; };
+		28CAA74622F7F99C00C1B69F /* GeoJSONPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72322F7F99C00C1B69F /* GeoJSONPolygon.swift */; };
+		28CAA74722F7F99C00C1B69F /* GeoJSONPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72422F7F99C00C1B69F /* GeoJSONPoint.swift */; };
+		28CAA74822F7F99C00C1B69F /* GeoJSONMultiPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72522F7F99C00C1B69F /* GeoJSONMultiPolygon.swift */; };
+		28CAA74922F7F99C00C1B69F /* GeoJSONGeometryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72622F7F99C00C1B69F /* GeoJSONGeometryCollection.swift */; };
+		28CAA74A22F7F99C00C1B69F /* STLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72822F7F99C00C1B69F /* STLocation.swift */; };
+		28CAA74B22F7F99C00C1B69F /* STUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72A22F7F99C00C1B69F /* STUser.swift */; };
+		28CAA74C22F7F99C00C1B69F /* STCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72C22F7F99C00C1B69F /* STCarousel.swift */; };
+		28CAA74D22F7F99C00C1B69F /* EntityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA72E22F7F99C00C1B69F /* EntityLevel.swift */; };
+		28CAA74E22F7F99C00C1B69F /* GeoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA73022F7F99C00C1B69F /* GeoEntity.swift */; };
+		28CAA74F22F7F99C00C1B69F /* GeoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA73122F7F99C00C1B69F /* GeoLabel.swift */; };
+		28CAA75022F7F99C00C1B69F /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA73322F7F99C00C1B69F /* Parameters.swift */; };
+		28CAA75122F7F99C00C1B69F /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA73522F7F99C00C1B69F /* Coordinate.swift */; };
+		28CAA75222F7F99C00C1B69F /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA73722F7F99C00C1B69F /* RepeatingTimer.swift */; };
+		28CAA75322F7F99C00C1B69F /* STPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA73922F7F99C00C1B69F /* STPhoto.swift */; };
+		28CAA75422F7F99C00C1B69F /* TileCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA73B22F7F99C00C1B69F /* TileCoordinate.swift */; };
+		28CAA75622F7FA1C00C1B69F /* STCarouselOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA75522F7FA1C00C1B69F /* STCarouselOverlay.swift */; };
+		28CAA75822F7FA3300C1B69F /* STCarouselOverlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA75722F7FA3300C1B69F /* STCarouselOverlayModel.swift */; };
 		3549BB501DA38A2000C63030 /* STPhotoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* STPhotoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB511DA38A2000C63030 /* STPhotoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* STPhotoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* STPhotoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* STPhotoCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,6 +107,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28CAA6B822F7F94F00C1B69F /* MKPolyline+MapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKPolyline+MapPoint.swift"; sourceTree = "<group>"; };
+		28CAA6BA22F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityLevel+CoordinateSpan.swift"; sourceTree = "<group>"; };
+		28CAA6BC22F7F94F00C1B69F /* DateFormatter+ISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+ISO8601.swift"; sourceTree = "<group>"; };
+		28CAA6BE22F7F94F00C1B69F /* MKMapView+OuterTiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+OuterTiles.swift"; sourceTree = "<group>"; };
+		28CAA6BF22F7F94F00C1B69F /* MKMapView+ZoomLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+ZoomLevel.swift"; sourceTree = "<group>"; };
+		28CAA6C022F7F94F00C1B69F /* MKMapView+BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+BoundingBox.swift"; sourceTree = "<group>"; };
+		28CAA6C122F7F94F00C1B69F /* MKMapView+VisibleTiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+VisibleTiles.swift"; sourceTree = "<group>"; };
+		28CAA6C322F7F94F00C1B69F /* Array+Tail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Tail.swift"; sourceTree = "<group>"; };
+		28CAA6C422F7F94F00C1B69F /* Array+FeatureAtLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+FeatureAtLocation.swift"; sourceTree = "<group>"; };
+		28CAA6C522F7F94F00C1B69F /* Array+Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Synchronized.swift"; sourceTree = "<group>"; };
+		28CAA6C622F7F94F00C1B69F /* Array+BestFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+BestFeature.swift"; sourceTree = "<group>"; };
+		28CAA6C822F7F94F00C1B69F /* GeoJSONFeature+ContainsLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeoJSONFeature+ContainsLocation.swift"; sourceTree = "<group>"; };
+		28CAA6C922F7F94F00C1B69F /* GeoJSONFeature+EntityLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeoJSONFeature+EntityLevel.swift"; sourceTree = "<group>"; };
+		28CAA6CB22F7F94F00C1B69F /* MKTileOverlayPath+Subtiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKTileOverlayPath+Subtiles.swift"; sourceTree = "<group>"; };
+		28CAA6CD22F7F94F00C1B69F /* GeoJSONObject+EntityLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeoJSONObject+EntityLevel.swift"; sourceTree = "<group>"; };
+		28CAA6CE22F7F94F00C1B69F /* GeoJSONObject+Features.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeoJSONObject+Features.swift"; sourceTree = "<group>"; };
+		28CAA6D022F7F94F00C1B69F /* MKClusterAnnotation+SameCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKClusterAnnotation+SameCoordinate.swift"; sourceTree = "<group>"; };
+		28CAA6D222F7F94F00C1B69F /* DefaultReuseIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultReuseIdentifier.swift; sourceTree = "<group>"; };
+		28CAA6D622F7F94F00C1B69F /* STCarousel+ShouldChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "STCarousel+ShouldChange.swift"; sourceTree = "<group>"; };
+		28CAA6D922F7F94F00C1B69F /* URL+Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Parameters.swift"; sourceTree = "<group>"; };
+		28CAA6DB22F7F94F00C1B69F /* UIViewController+Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Show.swift"; sourceTree = "<group>"; };
+		28CAA6DD22F7F94F00C1B69F /* MKMapRect+BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapRect+BoundingBox.swift"; sourceTree = "<group>"; };
+		28CAA6DE22F7F94F00C1B69F /* MKMapRect+OverlapPercentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapRect+OverlapPercentage.swift"; sourceTree = "<group>"; };
+		28CAA6DF22F7F94F00C1B69F /* MKMapRect+Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapRect+Area.swift"; sourceTree = "<group>"; };
+		28CAA6E022F7F94F00C1B69F /* MKMapRect+Tiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapRect+Tiles.swift"; sourceTree = "<group>"; };
+		28CAA6E122F7F94F00C1B69F /* MKMapRect+SpiralTiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapRect+SpiralTiles.swift"; sourceTree = "<group>"; };
+		28CAA6E222F7F94F00C1B69F /* MKMapRect+Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapRect+Coordinates.swift"; sourceTree = "<group>"; };
+		28CAA6E422F7F94F00C1B69F /* CLLocationCoordinate2D+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Equatable.swift"; sourceTree = "<group>"; };
+		28CAA6E522F7F94F00C1B69F /* CLLocationCoordinate2D+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Distance.swift"; sourceTree = "<group>"; };
+		28CAA6E722F7F94F00C1B69F /* GeoJSONGeometry+ContainsLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeoJSONGeometry+ContainsLocation.swift"; sourceTree = "<group>"; };
+		28CAA6E922F7F94F00C1B69F /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		28CAA6EE22F7F94F00C1B69F /* MKPolygon+MapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKPolygon+MapPoint.swift"; sourceTree = "<group>"; };
+		28CAA71522F7F99C00C1B69F /* GeoJSONBoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONBoundingBox.swift; sourceTree = "<group>"; };
+		28CAA71722F7F99C00C1B69F /* GeoJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONParser.swift; sourceTree = "<group>"; };
+		28CAA71822F7F99C00C1B69F /* GeoJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
+		28CAA71922F7F99C00C1B69F /* GeoJSONType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONType.swift; sourceTree = "<group>"; };
+		28CAA71B22F7F99C00C1B69F /* GeoJSONFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONFeature.swift; sourceTree = "<group>"; };
+		28CAA71D22F7F99C00C1B69F /* PhotoProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoProperties.swift; sourceTree = "<group>"; };
+		28CAA71E22F7F99C00C1B69F /* GeoJSONFeatureCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONFeatureCollection.swift; sourceTree = "<group>"; };
+		28CAA72022F7F99C00C1B69F /* GeoJSONMultiLineString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONMultiLineString.swift; sourceTree = "<group>"; };
+		28CAA72122F7F99C00C1B69F /* GeoJSONMultiPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONMultiPoint.swift; sourceTree = "<group>"; };
+		28CAA72222F7F99C00C1B69F /* GeoJSONLineString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONLineString.swift; sourceTree = "<group>"; };
+		28CAA72322F7F99C00C1B69F /* GeoJSONPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONPolygon.swift; sourceTree = "<group>"; };
+		28CAA72422F7F99C00C1B69F /* GeoJSONPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONPoint.swift; sourceTree = "<group>"; };
+		28CAA72522F7F99C00C1B69F /* GeoJSONMultiPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONMultiPolygon.swift; sourceTree = "<group>"; };
+		28CAA72622F7F99C00C1B69F /* GeoJSONGeometryCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSONGeometryCollection.swift; sourceTree = "<group>"; };
+		28CAA72822F7F99C00C1B69F /* STLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLocation.swift; sourceTree = "<group>"; };
+		28CAA72A22F7F99C00C1B69F /* STUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STUser.swift; sourceTree = "<group>"; };
+		28CAA72C22F7F99C00C1B69F /* STCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCarousel.swift; sourceTree = "<group>"; };
+		28CAA72E22F7F99C00C1B69F /* EntityLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityLevel.swift; sourceTree = "<group>"; };
+		28CAA73022F7F99C00C1B69F /* GeoEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoEntity.swift; sourceTree = "<group>"; };
+		28CAA73122F7F99C00C1B69F /* GeoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoLabel.swift; sourceTree = "<group>"; };
+		28CAA73322F7F99C00C1B69F /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		28CAA73522F7F99C00C1B69F /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		28CAA73722F7F99C00C1B69F /* RepeatingTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		28CAA73922F7F99C00C1B69F /* STPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STPhoto.swift; sourceTree = "<group>"; };
+		28CAA73B22F7F99C00C1B69F /* TileCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileCoordinate.swift; sourceTree = "<group>"; };
+		28CAA75522F7FA1C00C1B69F /* STCarouselOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCarouselOverlay.swift; sourceTree = "<group>"; };
+		28CAA75722F7FA3300C1B69F /* STCarouselOverlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCarouselOverlayModel.swift; sourceTree = "<group>"; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* STPhotoCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoCore.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* STPhotoCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STPhotoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +238,343 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28CAA6B622F7F94F00C1B69F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6B722F7F94F00C1B69F /* MKPolyline */,
+				28CAA6B922F7F94F00C1B69F /* EntityLevel */,
+				28CAA6BB22F7F94F00C1B69F /* DateFormatter */,
+				28CAA6BD22F7F94F00C1B69F /* MKMapView */,
+				28CAA6C222F7F94F00C1B69F /* Array */,
+				28CAA6C722F7F94F00C1B69F /* GeoJSONFeature */,
+				28CAA6CA22F7F94F00C1B69F /* MKTileOverlayPath */,
+				28CAA6CC22F7F94F00C1B69F /* GeoJSONObject */,
+				28CAA6CF22F7F94F00C1B69F /* MKClusterAnnotation */,
+				28CAA6D122F7F94F00C1B69F /* Default Reuse Identifier */,
+				28CAA6D522F7F94F00C1B69F /* Carousel */,
+				28CAA6D722F7F94F00C1B69F /* URL */,
+				28CAA6DA22F7F94F00C1B69F /* UIViewController */,
+				28CAA6DC22F7F94F00C1B69F /* MKMapRect */,
+				28CAA6E322F7F94F00C1B69F /* CLLocationCoordinate2D */,
+				28CAA6E622F7F94F00C1B69F /* GeoJSONGeometry */,
+				28CAA6E822F7F94F00C1B69F /* String */,
+				28CAA6ED22F7F94F00C1B69F /* MKPolygon */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		28CAA6B722F7F94F00C1B69F /* MKPolyline */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6B822F7F94F00C1B69F /* MKPolyline+MapPoint.swift */,
+			);
+			path = MKPolyline;
+			sourceTree = "<group>";
+		};
+		28CAA6B922F7F94F00C1B69F /* EntityLevel */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6BA22F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift */,
+			);
+			path = EntityLevel;
+			sourceTree = "<group>";
+		};
+		28CAA6BB22F7F94F00C1B69F /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6BC22F7F94F00C1B69F /* DateFormatter+ISO8601.swift */,
+			);
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
+		28CAA6BD22F7F94F00C1B69F /* MKMapView */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6BE22F7F94F00C1B69F /* MKMapView+OuterTiles.swift */,
+				28CAA6BF22F7F94F00C1B69F /* MKMapView+ZoomLevel.swift */,
+				28CAA6C022F7F94F00C1B69F /* MKMapView+BoundingBox.swift */,
+				28CAA6C122F7F94F00C1B69F /* MKMapView+VisibleTiles.swift */,
+			);
+			path = MKMapView;
+			sourceTree = "<group>";
+		};
+		28CAA6C222F7F94F00C1B69F /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6C322F7F94F00C1B69F /* Array+Tail.swift */,
+				28CAA6C422F7F94F00C1B69F /* Array+FeatureAtLocation.swift */,
+				28CAA6C522F7F94F00C1B69F /* Array+Synchronized.swift */,
+				28CAA6C622F7F94F00C1B69F /* Array+BestFeature.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		28CAA6C722F7F94F00C1B69F /* GeoJSONFeature */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6C822F7F94F00C1B69F /* GeoJSONFeature+ContainsLocation.swift */,
+				28CAA6C922F7F94F00C1B69F /* GeoJSONFeature+EntityLevel.swift */,
+			);
+			path = GeoJSONFeature;
+			sourceTree = "<group>";
+		};
+		28CAA6CA22F7F94F00C1B69F /* MKTileOverlayPath */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6CB22F7F94F00C1B69F /* MKTileOverlayPath+Subtiles.swift */,
+			);
+			path = MKTileOverlayPath;
+			sourceTree = "<group>";
+		};
+		28CAA6CC22F7F94F00C1B69F /* GeoJSONObject */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6CD22F7F94F00C1B69F /* GeoJSONObject+EntityLevel.swift */,
+				28CAA6CE22F7F94F00C1B69F /* GeoJSONObject+Features.swift */,
+			);
+			path = GeoJSONObject;
+			sourceTree = "<group>";
+		};
+		28CAA6CF22F7F94F00C1B69F /* MKClusterAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6D022F7F94F00C1B69F /* MKClusterAnnotation+SameCoordinate.swift */,
+			);
+			path = MKClusterAnnotation;
+			sourceTree = "<group>";
+		};
+		28CAA6D122F7F94F00C1B69F /* Default Reuse Identifier */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6D222F7F94F00C1B69F /* DefaultReuseIdentifier.swift */,
+			);
+			path = "Default Reuse Identifier";
+			sourceTree = "<group>";
+		};
+		28CAA6D522F7F94F00C1B69F /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6D622F7F94F00C1B69F /* STCarousel+ShouldChange.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		28CAA6D722F7F94F00C1B69F /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6D922F7F94F00C1B69F /* URL+Parameters.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		28CAA6DA22F7F94F00C1B69F /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6DB22F7F94F00C1B69F /* UIViewController+Show.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		28CAA6DC22F7F94F00C1B69F /* MKMapRect */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6DD22F7F94F00C1B69F /* MKMapRect+BoundingBox.swift */,
+				28CAA6DE22F7F94F00C1B69F /* MKMapRect+OverlapPercentage.swift */,
+				28CAA6DF22F7F94F00C1B69F /* MKMapRect+Area.swift */,
+				28CAA6E022F7F94F00C1B69F /* MKMapRect+Tiles.swift */,
+				28CAA6E122F7F94F00C1B69F /* MKMapRect+SpiralTiles.swift */,
+				28CAA6E222F7F94F00C1B69F /* MKMapRect+Coordinates.swift */,
+			);
+			path = MKMapRect;
+			sourceTree = "<group>";
+		};
+		28CAA6E322F7F94F00C1B69F /* CLLocationCoordinate2D */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6E422F7F94F00C1B69F /* CLLocationCoordinate2D+Equatable.swift */,
+				28CAA6E522F7F94F00C1B69F /* CLLocationCoordinate2D+Distance.swift */,
+			);
+			path = CLLocationCoordinate2D;
+			sourceTree = "<group>";
+		};
+		28CAA6E622F7F94F00C1B69F /* GeoJSONGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6E722F7F94F00C1B69F /* GeoJSONGeometry+ContainsLocation.swift */,
+			);
+			path = GeoJSONGeometry;
+			sourceTree = "<group>";
+		};
+		28CAA6E822F7F94F00C1B69F /* String */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6E922F7F94F00C1B69F /* String+Localized.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		28CAA6ED22F7F94F00C1B69F /* MKPolygon */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA6EE22F7F94F00C1B69F /* MKPolygon+MapPoint.swift */,
+			);
+			path = MKPolygon;
+			sourceTree = "<group>";
+		};
+		28CAA71322F7F99C00C1B69F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA71422F7F99C00C1B69F /* GeoJSON */,
+				28CAA72722F7F99C00C1B69F /* Location */,
+				28CAA72922F7F99C00C1B69F /* User */,
+				28CAA72B22F7F99C00C1B69F /* Carousel */,
+				28CAA72D22F7F99C00C1B69F /* Entity Level */,
+				28CAA72F22F7F99C00C1B69F /* Geo Entity */,
+				28CAA73222F7F99C00C1B69F /* Parameters */,
+				28CAA73422F7F99C00C1B69F /* Coordinate */,
+				28CAA73622F7F99C00C1B69F /* Repeating Timer */,
+				28CAA73822F7F99C00C1B69F /* Photo */,
+				28CAA73A22F7F99C00C1B69F /* Tile Coordinate */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28CAA71422F7F99C00C1B69F /* GeoJSON */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA71522F7F99C00C1B69F /* GeoJSONBoundingBox.swift */,
+				28CAA71622F7F99C00C1B69F /* Parser */,
+				28CAA71822F7F99C00C1B69F /* GeoJSON.swift */,
+				28CAA71922F7F99C00C1B69F /* GeoJSONType.swift */,
+				28CAA71A22F7F99C00C1B69F /* Feature */,
+				28CAA71F22F7F99C00C1B69F /* Geometry */,
+			);
+			path = GeoJSON;
+			sourceTree = "<group>";
+		};
+		28CAA71622F7F99C00C1B69F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA71722F7F99C00C1B69F /* GeoJSONParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		28CAA71A22F7F99C00C1B69F /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA71B22F7F99C00C1B69F /* GeoJSONFeature.swift */,
+				28CAA71C22F7F99C00C1B69F /* Properties */,
+				28CAA71E22F7F99C00C1B69F /* GeoJSONFeatureCollection.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		28CAA71C22F7F99C00C1B69F /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA71D22F7F99C00C1B69F /* PhotoProperties.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		28CAA71F22F7F99C00C1B69F /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA72022F7F99C00C1B69F /* GeoJSONMultiLineString.swift */,
+				28CAA72122F7F99C00C1B69F /* GeoJSONMultiPoint.swift */,
+				28CAA72222F7F99C00C1B69F /* GeoJSONLineString.swift */,
+				28CAA72322F7F99C00C1B69F /* GeoJSONPolygon.swift */,
+				28CAA72422F7F99C00C1B69F /* GeoJSONPoint.swift */,
+				28CAA72522F7F99C00C1B69F /* GeoJSONMultiPolygon.swift */,
+				28CAA72622F7F99C00C1B69F /* GeoJSONGeometryCollection.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		28CAA72722F7F99C00C1B69F /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA72822F7F99C00C1B69F /* STLocation.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		28CAA72922F7F99C00C1B69F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA72A22F7F99C00C1B69F /* STUser.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		28CAA72B22F7F99C00C1B69F /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA72C22F7F99C00C1B69F /* STCarousel.swift */,
+				28CAA75522F7FA1C00C1B69F /* STCarouselOverlay.swift */,
+				28CAA75722F7FA3300C1B69F /* STCarouselOverlayModel.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		28CAA72D22F7F99C00C1B69F /* Entity Level */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA72E22F7F99C00C1B69F /* EntityLevel.swift */,
+			);
+			path = "Entity Level";
+			sourceTree = "<group>";
+		};
+		28CAA72F22F7F99C00C1B69F /* Geo Entity */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA73022F7F99C00C1B69F /* GeoEntity.swift */,
+				28CAA73122F7F99C00C1B69F /* GeoLabel.swift */,
+			);
+			path = "Geo Entity";
+			sourceTree = "<group>";
+		};
+		28CAA73222F7F99C00C1B69F /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA73322F7F99C00C1B69F /* Parameters.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		28CAA73422F7F99C00C1B69F /* Coordinate */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA73522F7F99C00C1B69F /* Coordinate.swift */,
+			);
+			path = Coordinate;
+			sourceTree = "<group>";
+		};
+		28CAA73622F7F99C00C1B69F /* Repeating Timer */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA73722F7F99C00C1B69F /* RepeatingTimer.swift */,
+			);
+			path = "Repeating Timer";
+			sourceTree = "<group>";
+		};
+		28CAA73822F7F99C00C1B69F /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA73922F7F99C00C1B69F /* STPhoto.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		28CAA73A22F7F99C00C1B69F /* Tile Coordinate */ = {
+			isa = PBXGroup;
+			children = (
+				28CAA73B22F7F99C00C1B69F /* TileCoordinate.swift */,
+			);
+			path = "Tile Coordinate";
+			sourceTree = "<group>";
+		};
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +602,8 @@
 		3549BB161DA3890B00C63030 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				28CAA71322F7F99C00C1B69F /* Models */,
+				28CAA6B622F7F94F00C1B69F /* Extensions */,
 				359649011FB18CBF00FC7ADC /* Core */,
 				3549BB541DA38A4000C63030 /* Supporting Files */,
 			);
@@ -313,7 +770,6 @@
 				3549BB5D1DA38ADB00C63030 /* Sources */,
 				3549BB5E1DA38ADB00C63030 /* Frameworks */,
 				3549BB5F1DA38ADB00C63030 /* Resources */,
-				35B7422C1F82A2C700829B21 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,7 +788,6 @@
 				3549BB6C1DA38AEF00C63030 /* Sources */,
 				3549BB6D1DA38AEF00C63030 /* Frameworks */,
 				3549BB6E1DA38AEF00C63030 /* Resources */,
-				35B7423A1F82A63600829B21 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,7 +806,6 @@
 				3549BB7B1DA38B0000C63030 /* Sources */,
 				3549BB7C1DA38B0000C63030 /* Frameworks */,
 				3549BB7D1DA38B0000C63030 /* Resources */,
-				35B742331F82A60600829B21 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -491,7 +945,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CAA74122F7F99C00C1B69F /* PhotoProperties.swift in Sources */,
+				28CAA73F22F7F99C00C1B69F /* GeoJSONType.swift in Sources */,
+				28CAA70722F7F94F00C1B69F /* MKMapRect+OverlapPercentage.swift in Sources */,
+				28CAA6F222F7F94F00C1B69F /* MKMapView+OuterTiles.swift in Sources */,
+				28CAA6F422F7F94F00C1B69F /* MKMapView+BoundingBox.swift in Sources */,
+				28CAA75622F7FA1C00C1B69F /* STCarouselOverlay.swift in Sources */,
+				28CAA6FB22F7F94F00C1B69F /* GeoJSONFeature+EntityLevel.swift in Sources */,
+				28CAA70E22F7F94F00C1B69F /* GeoJSONGeometry+ContainsLocation.swift in Sources */,
+				28CAA70A22F7F94F00C1B69F /* MKMapRect+SpiralTiles.swift in Sources */,
+				28CAA70922F7F94F00C1B69F /* MKMapRect+Tiles.swift in Sources */,
+				28CAA75422F7F99C00C1B69F /* TileCoordinate.swift in Sources */,
+				28CAA6F722F7F94F00C1B69F /* Array+FeatureAtLocation.swift in Sources */,
+				28CAA70622F7F94F00C1B69F /* MKMapRect+BoundingBox.swift in Sources */,
+				28CAA6FE22F7F94F00C1B69F /* GeoJSONObject+Features.swift in Sources */,
+				28CAA74922F7F99C00C1B69F /* GeoJSONGeometryCollection.swift in Sources */,
+				28CAA74822F7F99C00C1B69F /* GeoJSONMultiPolygon.swift in Sources */,
+				28CAA74722F7F99C00C1B69F /* GeoJSONPoint.swift in Sources */,
+				28CAA75022F7F99C00C1B69F /* Parameters.swift in Sources */,
+				28CAA6F522F7F94F00C1B69F /* MKMapView+VisibleTiles.swift in Sources */,
+				28CAA6FA22F7F94F00C1B69F /* GeoJSONFeature+ContainsLocation.swift in Sources */,
+				28CAA70422F7F94F00C1B69F /* URL+Parameters.swift in Sources */,
+				28CAA74E22F7F99C00C1B69F /* GeoEntity.swift in Sources */,
+				28CAA6FD22F7F94F00C1B69F /* GeoJSONObject+EntityLevel.swift in Sources */,
+				28CAA75322F7F99C00C1B69F /* STPhoto.swift in Sources */,
+				28CAA75222F7F99C00C1B69F /* RepeatingTimer.swift in Sources */,
+				28CAA6F322F7F94F00C1B69F /* MKMapView+ZoomLevel.swift in Sources */,
 				359649031FB18CC000FC7ADC /* STPhotoCore.swift in Sources */,
+				28CAA6F922F7F94F00C1B69F /* Array+BestFeature.swift in Sources */,
+				28CAA70C22F7F94F00C1B69F /* CLLocationCoordinate2D+Equatable.swift in Sources */,
+				28CAA6F122F7F94F00C1B69F /* DateFormatter+ISO8601.swift in Sources */,
+				28CAA74522F7F99C00C1B69F /* GeoJSONLineString.swift in Sources */,
+				28CAA6F622F7F94F00C1B69F /* Array+Tail.swift in Sources */,
+				28CAA74D22F7F99C00C1B69F /* EntityLevel.swift in Sources */,
+				28CAA74622F7F99C00C1B69F /* GeoJSONPolygon.swift in Sources */,
+				28CAA73D22F7F99C00C1B69F /* GeoJSONParser.swift in Sources */,
+				28CAA6FF22F7F94F00C1B69F /* MKClusterAnnotation+SameCoordinate.swift in Sources */,
+				28CAA6F822F7F94F00C1B69F /* Array+Synchronized.swift in Sources */,
+				28CAA71222F7F94F00C1B69F /* MKPolygon+MapPoint.swift in Sources */,
+				28CAA74422F7F99C00C1B69F /* GeoJSONMultiPoint.swift in Sources */,
+				28CAA74322F7F99C00C1B69F /* GeoJSONMultiLineString.swift in Sources */,
+				28CAA70B22F7F94F00C1B69F /* MKMapRect+Coordinates.swift in Sources */,
+				28CAA6F022F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift in Sources */,
+				28CAA70022F7F94F00C1B69F /* DefaultReuseIdentifier.swift in Sources */,
+				28CAA73E22F7F99C00C1B69F /* GeoJSON.swift in Sources */,
+				28CAA70222F7F94F00C1B69F /* STCarousel+ShouldChange.swift in Sources */,
+				28CAA74C22F7F99C00C1B69F /* STCarousel.swift in Sources */,
+				28CAA74B22F7F99C00C1B69F /* STUser.swift in Sources */,
+				28CAA74022F7F99C00C1B69F /* GeoJSONFeature.swift in Sources */,
+				28CAA70F22F7F94F00C1B69F /* String+Localized.swift in Sources */,
+				28CAA75122F7F99C00C1B69F /* Coordinate.swift in Sources */,
+				28CAA75822F7FA3300C1B69F /* STCarouselOverlayModel.swift in Sources */,
+				28CAA6FC22F7F94F00C1B69F /* MKTileOverlayPath+Subtiles.swift in Sources */,
+				28CAA70D22F7F94F00C1B69F /* CLLocationCoordinate2D+Distance.swift in Sources */,
+				28CAA70822F7F94F00C1B69F /* MKMapRect+Area.swift in Sources */,
+				28CAA74F22F7F99C00C1B69F /* GeoLabel.swift in Sources */,
+				28CAA74A22F7F99C00C1B69F /* STLocation.swift in Sources */,
+				28CAA74222F7F99C00C1B69F /* GeoJSONFeatureCollection.swift in Sources */,
+				28CAA6EF22F7F94F00C1B69F /* MKPolyline+MapPoint.swift in Sources */,
+				28CAA70522F7F94F00C1B69F /* UIViewController+Show.swift in Sources */,
+				28CAA73C22F7F99C00C1B69F /* GeoJSONBoundingBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -862,9 +1375,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)"
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.streetography.st.photo.core.ios.STPhotoCore.STPhotoCoreTests;
@@ -879,9 +1390,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)"
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.streetography.st.photo.core.ios.STPhotoCore.STPhotoCoreTests;
@@ -895,9 +1404,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)"
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.streetography.st.photo.core.ios.STPhotoCore.STPhotoCoreTests;
@@ -913,9 +1420,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)"
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.streetography.st.photo.core.ios.STPhotoCore.STPhotoCoreTests;
@@ -931,9 +1436,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)"
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -950,9 +1453,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)"
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
