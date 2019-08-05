@@ -1,13 +1,13 @@
 # STPhotoCore
 
 [![Platforms](https://img.shields.io/cocoapods/p/STPhotoCore.svg)](https://cocoapods.org/pods/STPhotoCore)
-[![License](https://img.shields.io/cocoapods/l/STPhotoCore.svg)](https://raw.githubusercontent.com/mikelanza/https://github.com/mikelanza/st-photo-core-ios/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/STPhotoCore.svg)](https://raw.githubusercontent.com/mikelanza/st-photo-core-ios/master/LICENSE)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/STPhotoCore.svg)](https://cocoapods.org/pods/STPhotoCore)
 
-[![Travis](https://img.shields.io/travis/mikelanza/https://github.com/mikelanza/st-photo-core-ios/master.svg)](https://travis-ci.org/mikelanza/https://github.com/mikelanza/st-photo-core-ios/branches)
+[![Travis](https://img.shields.io/travis/mikelanza/st-photo-core-ios/master.svg)](https://travis-ci.org/mikelanza/st-photo-core-ios/branches)
 [![SwiftFrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/SwiftFrameworkTemplate)
 
 Common code
@@ -67,7 +67,7 @@ $ brew install carthage
 To integrate STPhotoCore into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "mikelanza/https://github.com/mikelanza/st-photo-core-ios" ~> 0.0.1
+github "mikelanza/st-photo-core-ios" ~> 0.0.1
 ```
 
 </details>
@@ -85,7 +85,7 @@ import PackageDescription
 let package = Package(
     name: "HelloSTPhotoCore",
     dependencies: [
-        .package(url: "https://github.com/mikelanza/https://github.com/mikelanza/st-photo-core-ios.git", .upToNextMajor(from: "0.0.1"))
+        .package(url: "https://github.com/mikelanza/st-photo-core-ios.git", .upToNextMajor(from: "0.0.1"))
     ],
     targets: [
         .target(name: "HelloSTPhotoCore", dependencies: ["STPhotoCore"])
@@ -110,7 +110,7 @@ $ git init
 - Add STPhotoCore as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add https://github.com/mikelanza/https://github.com/mikelanza/st-photo-core-ios.git
+$ git submodule add https://github.com/mikelanza/st-photo-core-ios.git
 $ git submodule update --init --recursive
 ```
 
@@ -137,7 +137,7 @@ $ git submodule update --init --recursive
 <details>
   <summary><strong>Embedded Binaries</strong></summary><p>
 
-- Download the latest release from https://github.com/mikelanza/https://github.com/mikelanza/st-photo-core-ios/releases
+- Download the latest release from https://github.com/mikelanza/st-photo-core-ios/releases
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
@@ -154,8 +154,8 @@ Issues and pull requests are welcome!
 
 ## Author
 
-Streetography [@rahulkatariya91](https://twitter.com/rahulkatariya91)
+[@Streetography](https://streetography.com)
 
 ## License
 
-STPhotoCore is released under the MIT license. See [LICENSE](https://github.com/mikelanza/https://github.com/mikelanza/st-photo-core-ios/blob/master/LICENSE) for details.
+STPhotoCore is released under the MIT license. See [LICENSE](https://github.com/mikelanza/st-photo-core-ios/blob/master/LICENSE) for details.
