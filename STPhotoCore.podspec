@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'STPhotoCore'
- s.version = '0.0.8'
+ s.version = '0.0.9'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'Common code for STPhotoMap, STPhotoDetails frameworks for iOS'
  s.homepage = 'https://streetography.com'
