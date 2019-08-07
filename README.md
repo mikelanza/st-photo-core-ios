@@ -19,7 +19,7 @@ Common code for STPhotoMap, STPhotoDetails frameworks for iOS
 
 ## Requirements
 
-- iOS 11.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 11.0+
 - Xcode 10.0+
 
 ## Installation

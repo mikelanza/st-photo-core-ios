@@ -4,15 +4,16 @@ Pod::Spec.new do |s|
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'Common code for STPhotoMap, STPhotoDetails frameworks for iOS'
  s.homepage = 'https://streetography.com'
- s.social_media_url = 'https://twitter.com/rahulkatariya91'
+ s.social_media_url = 'https://streetography.com'
  s.authors = { "Streetography" => "info@streetography.com" }
  s.source = { :git => "https://github.com/mikelanza/st-photo-core-ios.git", :tag => "v"+s.version.to_s }
- s.platforms = { :ios => "11.0", :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
+ s.platforms = { :ios => "11.0" }
  s.requires_arc = true
+ s.swift_versions = ['5.0']
 
  s.default_subspec = "Core"
  s.subspec "Core" do |ss|
-     ss.source_files  = "Sources/**/*.swift"
-     ss.framework  = "Foundation"
+     ss.ios.source_files  = "Sources/**/*.swift"
+     ss.ios.frameworks  = "Foundation", "UIKit"
  end
 end
