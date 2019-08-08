@@ -12,10 +12,7 @@ import PackageDescription
 let package = Package(
     name: "STPhotoCore",
     platforms: [
-        .iOS(.v11),
-        .macOS(.v10_10),
-        .tvOS(.v9),
-        .watchOS(.v2),
+        .iOS(.v11)
     ],
     products: [
         .library(
