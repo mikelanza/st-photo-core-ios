@@ -174,7 +174,7 @@ public enum GetGeoEntityOperationModel {
             guard let id = self.objectId else {
                 return nil
             }
-            var photo = STPhoto(id: id, createdAt: Date())
+            let photo = STPhoto(id: id, createdAt: Date())
             photo.imageUrl = self.imageUrl
             photo.image1200Url = self.image1200Url
             photo.image750Url = self.image750Url

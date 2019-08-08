@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282FC0E322FC42410016BECA /* KeyedDecodingContainer+Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FC0E222FC42410016BECA /* KeyedDecodingContainer+Wrapper.swift */; };
 		28CAA6EF22F7F94F00C1B69F /* MKPolyline+MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6B822F7F94F00C1B69F /* MKPolyline+MapPoint.swift */; };
 		28CAA6F022F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6BA22F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift */; };
 		28CAA6F122F7F94F00C1B69F /* DateFormatter+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CAA6BC22F7F94F00C1B69F /* DateFormatter+ISO8601.swift */; };
@@ -123,6 +124,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		282FC0E222FC42410016BECA /* KeyedDecodingContainer+Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+Wrapper.swift"; sourceTree = "<group>"; };
 		28CAA6B822F7F94F00C1B69F /* MKPolyline+MapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKPolyline+MapPoint.swift"; sourceTree = "<group>"; };
 		28CAA6BA22F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EntityLevel+CoordinateSpan.swift"; sourceTree = "<group>"; };
 		28CAA6BC22F7F94F00C1B69F /* DateFormatter+ISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+ISO8601.swift"; sourceTree = "<group>"; };
@@ -270,9 +272,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282FC0E122FC422E0016BECA /* KeyedDecodingContainer */ = {
+			isa = PBXGroup;
+			children = (
+				282FC0E222FC42410016BECA /* KeyedDecodingContainer+Wrapper.swift */,
+			);
+			path = KeyedDecodingContainer;
+			sourceTree = "<group>";
+		};
 		28CAA6B622F7F94F00C1B69F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				282FC0E122FC422E0016BECA /* KeyedDecodingContainer */,
 				28E9303B22F8835C001D5ADB /* STPhoto */,
 				28CAA6B722F7F94F00C1B69F /* MKPolyline */,
 				28CAA6B922F7F94F00C1B69F /* EntityLevel */,
@@ -1126,6 +1137,7 @@
 				28CAA70722F7F94F00C1B69F /* MKMapRect+OverlapPercentage.swift in Sources */,
 				28CAA6F222F7F94F00C1B69F /* MKMapView+OuterTiles.swift in Sources */,
 				28CAA77D22F81D9200C1B69F /* GetGeoEntityOperation.swift in Sources */,
+				282FC0E322FC42410016BECA /* KeyedDecodingContainer+Wrapper.swift in Sources */,
 				28CAA6F422F7F94F00C1B69F /* MKMapView+BoundingBox.swift in Sources */,
 				28CAA75622F7FA1C00C1B69F /* STCarouselOverlay.swift in Sources */,
 				28CAA6FB22F7F94F00C1B69F /* GeoJSONFeature+EntityLevel.swift in Sources */,
