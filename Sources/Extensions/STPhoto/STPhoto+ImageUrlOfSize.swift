@@ -23,6 +23,6 @@ extension STPhoto {
             case (let width, let height) where width <= 1200 && height <= 1200: url = self.image1200Url; break
             default: url = self.imageUrl; break
         }
-        return url
+        return url ?? self.imageUrl
     }
 }
