@@ -11,6 +11,7 @@ import Foundation
 public enum Environment {
     private enum Keys {
         static let getPhotoURL = "GET_PHOTO_URL"
+        static let getPhotosURL = "GET_PHOTOS_URL"
         static let bboxmongoURL = "BBOXMONGO_URL"
         static let tilesGeojsonURL = "TILES_GEOJSON_URL"
         static let tilesJpegURL = "TILES_JPEG_URL"
@@ -59,5 +60,9 @@ public enum Environment {
     
     public static let getLocationEntitiesURL: String = {
         return Environment.urlStringFor(Keys.getLocationEntitiesURL) ?? "https://prod.streetography.com/v1/legacy-geo/point"
+    }()
+    
+    public static let getPhotosURL: String = {
+        return Environment.urlStringFor(Keys.getPhotosURL) ?? "https://prod.streetography.com/v1/legacy-geo/mcollection"
     }()
 }

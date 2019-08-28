@@ -19,6 +19,10 @@ public final class EndpointsBuilder {
         return String(format: Environment.getPhotoURL, photoId)
     }
     
+    public func getPhotosEndpoint() -> String {
+        return Environment.getPhotosURL
+    }
+    
     public func getCommentsEndpoint(photoId: String) -> String {
         return String(format: Environment.getCommentsURL, photoId)
     }
