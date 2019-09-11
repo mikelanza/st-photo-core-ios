@@ -113,8 +113,6 @@ public class STPhoto: Codable {
         
         self._text = try container.decodeIfPresent(String.self, forKey: ._text)
         self._fhUsername = try container.decodeIfPresent(String.self, forKey: ._fhUsername)
-        self._location = try container.decodeWrapper(key: ._location, defaultValue: [])
-        
         self.collectionId = try container.decodeIfPresent(String.self, forKey: .collectionId)
         
         self.blockId = try container.decodeWrapper(key: .blockId, defaultValue: -1)
@@ -128,5 +126,29 @@ public class STPhoto: Codable {
         self.commentCount = try container.decodeWrapper(key: .commentCount, defaultValue: 0)
         
         self.dominantColor = try container.decodeWrapper(key: .dominantColor, defaultValue: "FFFFFF")
+        
+        self.decodeLocation(container: container)
+    }
+    
+    private func decodeLocation(container: KeyedDecodingContainer<STPhoto.CodingKeys>) {
+        if let array = try? container.decodeIfPresent([Double].self, forKey: ._location) {
+            self._location = array
+        } else if let location = try? container.decodeIfPresent(Location.self, forKey: ._location) {
+            self._location = [location.latitude, location.longitude]
+        } else {
+            self._location = []
+        }
+    }
+    
+    private struct Location: Codable {
+        var type: String
+        var latitude: Double
+        var longitude: Double
+        
+        enum CodingKeys: String, CodingKey {
+            case type = "__type"
+            case latitude = "latitude"
+            case longitude = "longitude"
+        }
     }
 }
