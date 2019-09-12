@@ -9,7 +9,7 @@
 import Foundation
 
 open class PhotoLocalTask: PhotoTaskProtocol {
-    let operationQueue = OperationQueue()
+    public let operationQueue = OperationQueue()
     
     public init() {
     }

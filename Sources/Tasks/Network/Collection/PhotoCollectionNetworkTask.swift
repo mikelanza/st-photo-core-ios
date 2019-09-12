@@ -9,7 +9,7 @@
 import Foundation
 
 open class PhotoCollectionNetworkTask: PhotoCollectionTaskProtocol {
-    let operationQueue = OperationQueue()
+    public let operationQueue = OperationQueue()
     
     public init() {
     }

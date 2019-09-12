@@ -133,12 +133,12 @@
 		85F9B862232A2EE900124716 /* LocationEntitiesTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B855232A2EE900124716 /* LocationEntitiesTaskProtocol.swift */; };
 		85F9B863232A2EE900124716 /* PhotoTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B857232A2EE900124716 /* PhotoTaskProtocol.swift */; };
 		85F9B864232A2EE900124716 /* PhotoNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B858232A2EE900124716 /* PhotoNetworkTask.swift */; };
-		85F9B871232A2F0500124716 /* LocationAddressLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B866232A2F0400124716 /* LocationAddressLocalService.swift */; };
-		85F9B872232A2F0500124716 /* ImageLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B868232A2F0400124716 /* ImageLocalService.swift */; };
+		85F9B871232A2F0500124716 /* LocationAddressLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B866232A2F0400124716 /* LocationAddressLocalTask.swift */; };
+		85F9B872232A2F0500124716 /* ImageLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B868232A2F0400124716 /* ImageLocalTask.swift */; };
 		85F9B873232A2F0500124716 /* PhotoCollectionLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86A232A2F0400124716 /* PhotoCollectionLocalTask.swift */; };
-		85F9B874232A2F0500124716 /* LocationEntitiesLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86C232A2F0500124716 /* LocationEntitiesLocalService.swift */; };
-		85F9B875232A2F0500124716 /* PhotoLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86E232A2F0500124716 /* PhotoLocalService.swift */; };
-		85F9B876232A2F0500124716 /* PhotoCommentsLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B870232A2F0500124716 /* PhotoCommentsLocalService.swift */; };
+		85F9B874232A2F0500124716 /* LocationEntitiesLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86C232A2F0500124716 /* LocationEntitiesLocalTask.swift */; };
+		85F9B875232A2F0500124716 /* PhotoLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86E232A2F0500124716 /* PhotoLocalTask.swift */; };
+		85F9B876232A2F0500124716 /* PhotoCommentsLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B870232A2F0500124716 /* PhotoCommentsLocalTask.swift */; };
 		85F9B879232A38F800124716 /* PhotosLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B878232A38F800124716 /* PhotosLocalTask.swift */; };
 		85F9B87D232A390200124716 /* PhotosTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B87B232A390100124716 /* PhotosTaskProtocol.swift */; };
 		85F9B87E232A390200124716 /* PhotosNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B87C232A390100124716 /* PhotosNetworkTask.swift */; };
@@ -301,12 +301,12 @@
 		85F9B855232A2EE900124716 /* LocationEntitiesTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEntitiesTaskProtocol.swift; sourceTree = "<group>"; };
 		85F9B857232A2EE900124716 /* PhotoTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTaskProtocol.swift; sourceTree = "<group>"; };
 		85F9B858232A2EE900124716 /* PhotoNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoNetworkTask.swift; sourceTree = "<group>"; };
-		85F9B866232A2F0400124716 /* LocationAddressLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddressLocalService.swift; sourceTree = "<group>"; };
-		85F9B868232A2F0400124716 /* ImageLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLocalService.swift; sourceTree = "<group>"; };
+		85F9B866232A2F0400124716 /* LocationAddressLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddressLocalTask.swift; sourceTree = "<group>"; };
+		85F9B868232A2F0400124716 /* ImageLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLocalTask.swift; sourceTree = "<group>"; };
 		85F9B86A232A2F0400124716 /* PhotoCollectionLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionLocalTask.swift; sourceTree = "<group>"; };
-		85F9B86C232A2F0500124716 /* LocationEntitiesLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEntitiesLocalService.swift; sourceTree = "<group>"; };
-		85F9B86E232A2F0500124716 /* PhotoLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLocalService.swift; sourceTree = "<group>"; };
-		85F9B870232A2F0500124716 /* PhotoCommentsLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentsLocalService.swift; sourceTree = "<group>"; };
+		85F9B86C232A2F0500124716 /* LocationEntitiesLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEntitiesLocalTask.swift; sourceTree = "<group>"; };
+		85F9B86E232A2F0500124716 /* PhotoLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLocalTask.swift; sourceTree = "<group>"; };
+		85F9B870232A2F0500124716 /* PhotoCommentsLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentsLocalTask.swift; sourceTree = "<group>"; };
 		85F9B878232A38F800124716 /* PhotosLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosLocalTask.swift; sourceTree = "<group>"; };
 		85F9B87B232A390100124716 /* PhotosTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTaskProtocol.swift; sourceTree = "<group>"; };
 		85F9B87C232A390100124716 /* PhotosNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosNetworkTask.swift; sourceTree = "<group>"; };
@@ -1280,7 +1280,7 @@
 		85F9B865232A2F0400124716 /* Location Address */ = {
 			isa = PBXGroup;
 			children = (
-				85F9B866232A2F0400124716 /* LocationAddressLocalService.swift */,
+				85F9B866232A2F0400124716 /* LocationAddressLocalTask.swift */,
 			);
 			path = "Location Address";
 			sourceTree = "<group>";
@@ -1288,7 +1288,7 @@
 		85F9B867232A2F0400124716 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				85F9B868232A2F0400124716 /* ImageLocalService.swift */,
+				85F9B868232A2F0400124716 /* ImageLocalTask.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -1304,7 +1304,7 @@
 		85F9B86B232A2F0500124716 /* Location Entities */ = {
 			isa = PBXGroup;
 			children = (
-				85F9B86C232A2F0500124716 /* LocationEntitiesLocalService.swift */,
+				85F9B86C232A2F0500124716 /* LocationEntitiesLocalTask.swift */,
 			);
 			path = "Location Entities";
 			sourceTree = "<group>";
@@ -1312,7 +1312,7 @@
 		85F9B86D232A2F0500124716 /* Photo */ = {
 			isa = PBXGroup;
 			children = (
-				85F9B86E232A2F0500124716 /* PhotoLocalService.swift */,
+				85F9B86E232A2F0500124716 /* PhotoLocalTask.swift */,
 			);
 			path = Photo;
 			sourceTree = "<group>";
@@ -1320,7 +1320,7 @@
 		85F9B86F232A2F0500124716 /* Comments */ = {
 			isa = PBXGroup;
 			children = (
-				85F9B870232A2F0500124716 /* PhotoCommentsLocalService.swift */,
+				85F9B870232A2F0500124716 /* PhotoCommentsLocalTask.swift */,
 			);
 			path = Comments;
 			sourceTree = "<group>";
@@ -1691,7 +1691,7 @@
 				85F9B88E232A589E00124716 /* PhotoCommentsTaskModel.swift in Sources */,
 				28CAA6FE22F7F94F00C1B69F /* GeoJSONObject+Features.swift in Sources */,
 				85F9B864232A2EE900124716 /* PhotoNetworkTask.swift in Sources */,
-				85F9B872232A2F0500124716 /* ImageLocalService.swift in Sources */,
+				85F9B872232A2F0500124716 /* ImageLocalTask.swift in Sources */,
 				85F9B824232A2A3100124716 /* GetLocationAddressOperationModel.swift in Sources */,
 				28CAA74922F7F99C00C1B69F /* GeoJSONGeometryCollection.swift in Sources */,
 				28CAA74822F7F99C00C1B69F /* GeoJSONMultiPolygon.swift in Sources */,
@@ -1708,7 +1708,7 @@
 				28E9303D22F88370001D5ADB /* STPhoto+ImageUrlOfSize.swift in Sources */,
 				85F9B863232A2EE900124716 /* PhotoTaskProtocol.swift in Sources */,
 				28CAA70422F7F94F00C1B69F /* URL+Parameters.swift in Sources */,
-				85F9B871232A2F0500124716 /* LocationAddressLocalService.swift in Sources */,
+				85F9B871232A2F0500124716 /* LocationAddressLocalTask.swift in Sources */,
 				28CAA78122F81D9200C1B69F /* GetPhotoOperationRequestBuilder.swift in Sources */,
 				28CAA74E22F7F99C00C1B69F /* GeoEntity.swift in Sources */,
 				28CAA6FD22F7F94F00C1B69F /* GeoJSONObject+EntityLevel.swift in Sources */,
@@ -1720,7 +1720,7 @@
 				28CAA6F322F7F94F00C1B69F /* MKMapView+ZoomLevel.swift in Sources */,
 				359649031FB18CC000FC7ADC /* STPhotoCore.swift in Sources */,
 				28CAA6F922F7F94F00C1B69F /* Array+BestFeature.swift in Sources */,
-				85F9B876232A2F0500124716 /* PhotoCommentsLocalService.swift in Sources */,
+				85F9B876232A2F0500124716 /* PhotoCommentsLocalTask.swift in Sources */,
 				85F9B820232A2A3100124716 /* GetCollectionOperationRequestBuilder.swift in Sources */,
 				85F9B88C232A545500124716 /* PhotosTaskModel.swift in Sources */,
 				85F9B873232A2F0500124716 /* PhotoCollectionLocalTask.swift in Sources */,
@@ -1733,7 +1733,7 @@
 				28CAA74622F7F99C00C1B69F /* GeoJSONPolygon.swift in Sources */,
 				85F9B834232A2AF600124716 /* STAddress.swift in Sources */,
 				85F9B82A232A2A3100124716 /* GetLocationEntitiesOperationParseBuilder.swift in Sources */,
-				85F9B875232A2F0500124716 /* PhotoLocalService.swift in Sources */,
+				85F9B875232A2F0500124716 /* PhotoLocalTask.swift in Sources */,
 				28CAA73D22F7F99C00C1B69F /* GeoJSONParser.swift in Sources */,
 				85F9B807232A299400124716 /* GetPhotoLocalOperation.swift in Sources */,
 				28CAA6FF22F7F94F00C1B69F /* MKClusterAnnotation+SameCoordinate.swift in Sources */,
@@ -1756,7 +1756,7 @@
 				28CAA74C22F7F99C00C1B69F /* STCarousel.swift in Sources */,
 				85F9B85D232A2EE900124716 /* ImageNetworkTask.swift in Sources */,
 				85F9B87D232A390200124716 /* PhotosTaskProtocol.swift in Sources */,
-				85F9B874232A2F0500124716 /* LocationEntitiesLocalService.swift in Sources */,
+				85F9B874232A2F0500124716 /* LocationEntitiesLocalTask.swift in Sources */,
 				85F9B821232A2A3100124716 /* GetCollectionOperationModel.swift in Sources */,
 				28CAA74B22F7F99C00C1B69F /* STUser.swift in Sources */,
 				85F9B861232A2EE900124716 /* LocationEntitiesNetworkTask.swift in Sources */,

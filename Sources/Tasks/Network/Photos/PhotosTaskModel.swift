@@ -18,10 +18,10 @@ public enum PhotosTaskModel {
     }
     
     public struct EntityFilter {
-        let limit: Int
-        let skip: Int
-        let entity: Entity
-        let filter: Filter
+        public let limit: Int
+        public let skip: Int
+        public let entity: Entity
+        public let filter: Filter
         
         public init(limit: Int, skip: Int, entity: Entity, filter: Filter) {
             self.limit = limit
@@ -32,8 +32,8 @@ public enum PhotosTaskModel {
     }
     
     public struct Entity {
-        let entityId: Int
-        let entityType: String
+        public let entityId: Int
+        public let entityType: String
         
         public init(entityId: Int, entityType: String) {
             self.entityId = entityId
@@ -42,8 +42,8 @@ public enum PhotosTaskModel {
     }
     
     public struct Filter {
-        let userId: String?
-        let collectionId: String?
+        public let userId: String?
+        public let collectionId: String?
         
         public init(userId: String?, collectionId: String?) {
             self.userId = userId

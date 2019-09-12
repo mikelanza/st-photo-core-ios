@@ -9,7 +9,7 @@
 import UIKit
 
 open class ImageLocalTask: ImageTaskProtocol {
-    let operationQueue = OperationQueue()
+    public let operationQueue = OperationQueue()
     
     public init() {
     }

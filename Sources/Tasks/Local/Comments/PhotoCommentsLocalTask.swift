@@ -9,7 +9,7 @@
 import Foundation
 
 open class PhotoCommentsLocalTask: PhotoCommentsTaskProtocol {
-    let operationQueue = OperationQueue()
+    public let operationQueue = OperationQueue()
     
     public init() {
     }

@@ -8,37 +8,39 @@
 
 import Foundation
 
-class TaskConfigurator {
-    static let shared = TaskConfigurator()
+public class TaskConfigurator {
+    public static let shared = TaskConfigurator()
+    
+    public var shouldRunLocally: Bool = false
     
     private init() { }
     
     func photoCommentsTask() -> PhotoCommentsTaskProtocol {
-        return PhotoCommentsNetworkTask()
+        return self.shouldRunLocally ? PhotoCommentsLocalTask() : PhotoCommentsNetworkTask()
     }
     
     func photoTask() -> PhotoTaskProtocol {
-        return PhotoNetworkTask()
+        return self.shouldRunLocally ? PhotoLocalTask() : PhotoNetworkTask()
     }
     
     func imageTask() -> ImageTaskProtocol {
-        return ImageNetworkTask()
+        return self.shouldRunLocally ?  ImageLocalTask() : ImageNetworkTask()
     }
     
     func photoCollectionTask() -> PhotoCollectionTaskProtocol {
-        return PhotoCollectionNetworkTask()
+        return self.shouldRunLocally ?  PhotoCollectionLocalTask() : PhotoCollectionNetworkTask()
     }
     
     func locationAddressTask() -> LocationAddressTaskProtocol {
-        return LocationAddressNetworkTask()
+        return self.shouldRunLocally ?  LocationAddressLocalTask() : LocationAddressNetworkTask()
     }
     
     func locationEntitiesTask() -> LocationEntitiesTaskProtocol {
-        return LocationEntitiesNetworkTask()
+        return self.shouldRunLocally ?  LocationEntitiesLocalTask() : LocationEntitiesNetworkTask()
     }
     
     func photosTask() -> PhotosTaskProtocol {
-        return PhotosNetworkTask()
+        return self.shouldRunLocally ? PhotosLocalTask() : PhotosNetworkTask()
     }
 }
 
