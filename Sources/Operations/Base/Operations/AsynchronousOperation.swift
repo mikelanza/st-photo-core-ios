@@ -3,7 +3,7 @@
 //  STPhotoCore
 //
 //  Created by Dimitri Strauneanu on 13/11/2017.
-//  Copyright © 2017 mikelanza. All rights reserved.
+//  Copyright © 2017 Streetography. All rights reserved.
 //
 
 import Foundation
