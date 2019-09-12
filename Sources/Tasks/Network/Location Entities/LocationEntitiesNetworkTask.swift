@@ -9,7 +9,7 @@
 import Foundation
 
 open class LocationEntitiesNetworkTask: LocationEntitiesTaskProtocol {
-    let operationQueue = OperationQueue()
+    public let operationQueue = OperationQueue()
     
     public init() {
     }

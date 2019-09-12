@@ -9,7 +9,7 @@
 import UIKit
 
 open class ImageNetworkTask: ImageTaskProtocol {
-    let operationQueue = OperationQueue()
+    public let operationQueue = OperationQueue()
     
     public init() {
     }
