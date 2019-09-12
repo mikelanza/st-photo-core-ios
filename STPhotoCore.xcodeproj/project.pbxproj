@@ -97,6 +97,57 @@
 		359649041FB18CC000FC7ADC /* STPhotoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* STPhotoCore.swift */; };
 		359649051FB18CC000FC7ADC /* STPhotoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* STPhotoCore.swift */; };
 		359649061FB18CC000FC7ADC /* STPhotoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* STPhotoCore.swift */; };
+		85F9B802232A299400124716 /* GetLocationEntitiesLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B7F2232A299400124716 /* GetLocationEntitiesLocalOperation.swift */; };
+		85F9B803232A299400124716 /* GetCommentsLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B7F5232A299400124716 /* GetCommentsLocalOperation.swift */; };
+		85F9B804232A299400124716 /* GetCollectionLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B7F8232A299400124716 /* GetCollectionLocalOperation.swift */; };
+		85F9B805232A299400124716 /* GetLocationAddressLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B7FB232A299400124716 /* GetLocationAddressLocalOperation.swift */; };
+		85F9B806232A299400124716 /* GetImageLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B7FE232A299400124716 /* GetImageLocalOperation.swift */; };
+		85F9B807232A299400124716 /* GetPhotoLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B801232A299400124716 /* GetPhotoLocalOperation.swift */; };
+		85F9B820232A2A3100124716 /* GetCollectionOperationRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B80A232A2A3000124716 /* GetCollectionOperationRequestBuilder.swift */; };
+		85F9B821232A2A3100124716 /* GetCollectionOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B80B232A2A3000124716 /* GetCollectionOperationModel.swift */; };
+		85F9B822232A2A3100124716 /* GetCollectionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B80C232A2A3000124716 /* GetCollectionOperation.swift */; };
+		85F9B823232A2A3100124716 /* GetLocationAddressOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B80F232A2A3000124716 /* GetLocationAddressOperation.swift */; };
+		85F9B824232A2A3100124716 /* GetLocationAddressOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B810232A2A3000124716 /* GetLocationAddressOperationModel.swift */; };
+		85F9B825232A2A3100124716 /* GetCommentsOperationRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B813232A2A3000124716 /* GetCommentsOperationRequestBuilder.swift */; };
+		85F9B826232A2A3100124716 /* GetCommentsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B814232A2A3000124716 /* GetCommentsOperation.swift */; };
+		85F9B827232A2A3100124716 /* GetCommentsOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B815232A2A3000124716 /* GetCommentsOperationModel.swift */; };
+		85F9B828232A2A3100124716 /* GetImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B818232A2A3100124716 /* GetImageOperation.swift */; };
+		85F9B829232A2A3100124716 /* GetImageOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B819232A2A3100124716 /* GetImageOperationModel.swift */; };
+		85F9B82A232A2A3100124716 /* GetLocationEntitiesOperationParseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B81C232A2A3100124716 /* GetLocationEntitiesOperationParseBuilder.swift */; };
+		85F9B82B232A2A3100124716 /* GetLocationEntitiesOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B81D232A2A3100124716 /* GetLocationEntitiesOperationModel.swift */; };
+		85F9B82C232A2A3100124716 /* GetLocationEntitiesOperationRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B81E232A2A3100124716 /* GetLocationEntitiesOperationRequestBuilder.swift */; };
+		85F9B82D232A2A3100124716 /* GetLocationEntitiesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B81F232A2A3100124716 /* GetLocationEntitiesOperation.swift */; };
+		85F9B834232A2AF600124716 /* STAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B82F232A2AF500124716 /* STAddress.swift */; };
+		85F9B835232A2AF600124716 /* STCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B831232A2AF500124716 /* STCollection.swift */; };
+		85F9B836232A2AF600124716 /* STComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B833232A2AF600124716 /* STComment.swift */; };
+		85F9B83C232A2D1100124716 /* TaskConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B83B232A2D1100124716 /* TaskConfigurator.swift */; };
+		85F9B859232A2EE900124716 /* PhotoCommentsTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B848232A2EE900124716 /* PhotoCommentsTaskProtocol.swift */; };
+		85F9B85A232A2EE900124716 /* PhotoCommentsNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B849232A2EE900124716 /* PhotoCommentsNetworkTask.swift */; };
+		85F9B85B232A2EE900124716 /* LocationAddressTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B84B232A2EE900124716 /* LocationAddressTaskProtocol.swift */; };
+		85F9B85C232A2EE900124716 /* LocationAddressNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B84C232A2EE900124716 /* LocationAddressNetworkTask.swift */; };
+		85F9B85D232A2EE900124716 /* ImageNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B84E232A2EE900124716 /* ImageNetworkTask.swift */; };
+		85F9B85E232A2EE900124716 /* ImageTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B84F232A2EE900124716 /* ImageTaskProtocol.swift */; };
+		85F9B85F232A2EE900124716 /* PhotoCollectionTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B851232A2EE900124716 /* PhotoCollectionTaskProtocol.swift */; };
+		85F9B860232A2EE900124716 /* PhotoCollectionNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B852232A2EE900124716 /* PhotoCollectionNetworkTask.swift */; };
+		85F9B861232A2EE900124716 /* LocationEntitiesNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B854232A2EE900124716 /* LocationEntitiesNetworkTask.swift */; };
+		85F9B862232A2EE900124716 /* LocationEntitiesTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B855232A2EE900124716 /* LocationEntitiesTaskProtocol.swift */; };
+		85F9B863232A2EE900124716 /* PhotoTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B857232A2EE900124716 /* PhotoTaskProtocol.swift */; };
+		85F9B864232A2EE900124716 /* PhotoNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B858232A2EE900124716 /* PhotoNetworkTask.swift */; };
+		85F9B871232A2F0500124716 /* LocationAddressLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B866232A2F0400124716 /* LocationAddressLocalService.swift */; };
+		85F9B872232A2F0500124716 /* ImageLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B868232A2F0400124716 /* ImageLocalService.swift */; };
+		85F9B873232A2F0500124716 /* PhotoCollectionLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86A232A2F0400124716 /* PhotoCollectionLocalTask.swift */; };
+		85F9B874232A2F0500124716 /* LocationEntitiesLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86C232A2F0500124716 /* LocationEntitiesLocalService.swift */; };
+		85F9B875232A2F0500124716 /* PhotoLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B86E232A2F0500124716 /* PhotoLocalService.swift */; };
+		85F9B876232A2F0500124716 /* PhotoCommentsLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B870232A2F0500124716 /* PhotoCommentsLocalService.swift */; };
+		85F9B879232A38F800124716 /* PhotosLocalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B878232A38F800124716 /* PhotosLocalTask.swift */; };
+		85F9B87D232A390200124716 /* PhotosTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B87B232A390100124716 /* PhotosTaskProtocol.swift */; };
+		85F9B87E232A390200124716 /* PhotosNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B87C232A390100124716 /* PhotosNetworkTask.swift */; };
+		85F9B882232A392400124716 /* GetPhotosLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B881232A392400124716 /* GetPhotosLocalOperation.swift */; };
+		85F9B888232A392C00124716 /* GetPhotosOperationRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B885232A392C00124716 /* GetPhotosOperationRequestBuilder.swift */; };
+		85F9B889232A392C00124716 /* GetPhotosOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B886232A392C00124716 /* GetPhotosOperationModel.swift */; };
+		85F9B88A232A392C00124716 /* GetPhotosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B887232A392C00124716 /* GetPhotosOperation.swift */; };
+		85F9B88C232A545500124716 /* PhotosTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B88B232A545500124716 /* PhotosTaskModel.swift */; };
+		85F9B88E232A589E00124716 /* PhotoCommentsTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9B88D232A589E00124716 /* PhotoCommentsTaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,6 +265,57 @@
 		3549BB7F1DA38B0000C63030 /* STPhotoCoreTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STPhotoCoreTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3549BB8A1DA38C0A00C63030 /* STPhotoCoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STPhotoCoreTests.swift; sourceTree = "<group>"; };
 		359649021FB18CBF00FC7ADC /* STPhotoCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STPhotoCore.swift; sourceTree = "<group>"; };
+		85F9B7F2232A299400124716 /* GetLocationEntitiesLocalOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationEntitiesLocalOperation.swift; sourceTree = "<group>"; };
+		85F9B7F5232A299400124716 /* GetCommentsLocalOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCommentsLocalOperation.swift; sourceTree = "<group>"; };
+		85F9B7F8232A299400124716 /* GetCollectionLocalOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCollectionLocalOperation.swift; sourceTree = "<group>"; };
+		85F9B7FB232A299400124716 /* GetLocationAddressLocalOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationAddressLocalOperation.swift; sourceTree = "<group>"; };
+		85F9B7FE232A299400124716 /* GetImageLocalOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetImageLocalOperation.swift; sourceTree = "<group>"; };
+		85F9B801232A299400124716 /* GetPhotoLocalOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPhotoLocalOperation.swift; sourceTree = "<group>"; };
+		85F9B80A232A2A3000124716 /* GetCollectionOperationRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCollectionOperationRequestBuilder.swift; sourceTree = "<group>"; };
+		85F9B80B232A2A3000124716 /* GetCollectionOperationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCollectionOperationModel.swift; sourceTree = "<group>"; };
+		85F9B80C232A2A3000124716 /* GetCollectionOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCollectionOperation.swift; sourceTree = "<group>"; };
+		85F9B80F232A2A3000124716 /* GetLocationAddressOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationAddressOperation.swift; sourceTree = "<group>"; };
+		85F9B810232A2A3000124716 /* GetLocationAddressOperationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationAddressOperationModel.swift; sourceTree = "<group>"; };
+		85F9B813232A2A3000124716 /* GetCommentsOperationRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCommentsOperationRequestBuilder.swift; sourceTree = "<group>"; };
+		85F9B814232A2A3000124716 /* GetCommentsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCommentsOperation.swift; sourceTree = "<group>"; };
+		85F9B815232A2A3000124716 /* GetCommentsOperationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCommentsOperationModel.swift; sourceTree = "<group>"; };
+		85F9B818232A2A3100124716 /* GetImageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetImageOperation.swift; sourceTree = "<group>"; };
+		85F9B819232A2A3100124716 /* GetImageOperationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetImageOperationModel.swift; sourceTree = "<group>"; };
+		85F9B81C232A2A3100124716 /* GetLocationEntitiesOperationParseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationEntitiesOperationParseBuilder.swift; sourceTree = "<group>"; };
+		85F9B81D232A2A3100124716 /* GetLocationEntitiesOperationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationEntitiesOperationModel.swift; sourceTree = "<group>"; };
+		85F9B81E232A2A3100124716 /* GetLocationEntitiesOperationRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationEntitiesOperationRequestBuilder.swift; sourceTree = "<group>"; };
+		85F9B81F232A2A3100124716 /* GetLocationEntitiesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationEntitiesOperation.swift; sourceTree = "<group>"; };
+		85F9B82F232A2AF500124716 /* STAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STAddress.swift; sourceTree = "<group>"; };
+		85F9B831232A2AF500124716 /* STCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCollection.swift; sourceTree = "<group>"; };
+		85F9B833232A2AF600124716 /* STComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STComment.swift; sourceTree = "<group>"; };
+		85F9B83B232A2D1100124716 /* TaskConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskConfigurator.swift; sourceTree = "<group>"; };
+		85F9B848232A2EE900124716 /* PhotoCommentsTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentsTaskProtocol.swift; sourceTree = "<group>"; };
+		85F9B849232A2EE900124716 /* PhotoCommentsNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentsNetworkTask.swift; sourceTree = "<group>"; };
+		85F9B84B232A2EE900124716 /* LocationAddressTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddressTaskProtocol.swift; sourceTree = "<group>"; };
+		85F9B84C232A2EE900124716 /* LocationAddressNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddressNetworkTask.swift; sourceTree = "<group>"; };
+		85F9B84E232A2EE900124716 /* ImageNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageNetworkTask.swift; sourceTree = "<group>"; };
+		85F9B84F232A2EE900124716 /* ImageTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTaskProtocol.swift; sourceTree = "<group>"; };
+		85F9B851232A2EE900124716 /* PhotoCollectionTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionTaskProtocol.swift; sourceTree = "<group>"; };
+		85F9B852232A2EE900124716 /* PhotoCollectionNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionNetworkTask.swift; sourceTree = "<group>"; };
+		85F9B854232A2EE900124716 /* LocationEntitiesNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEntitiesNetworkTask.swift; sourceTree = "<group>"; };
+		85F9B855232A2EE900124716 /* LocationEntitiesTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEntitiesTaskProtocol.swift; sourceTree = "<group>"; };
+		85F9B857232A2EE900124716 /* PhotoTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTaskProtocol.swift; sourceTree = "<group>"; };
+		85F9B858232A2EE900124716 /* PhotoNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoNetworkTask.swift; sourceTree = "<group>"; };
+		85F9B866232A2F0400124716 /* LocationAddressLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddressLocalService.swift; sourceTree = "<group>"; };
+		85F9B868232A2F0400124716 /* ImageLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLocalService.swift; sourceTree = "<group>"; };
+		85F9B86A232A2F0400124716 /* PhotoCollectionLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionLocalTask.swift; sourceTree = "<group>"; };
+		85F9B86C232A2F0500124716 /* LocationEntitiesLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEntitiesLocalService.swift; sourceTree = "<group>"; };
+		85F9B86E232A2F0500124716 /* PhotoLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLocalService.swift; sourceTree = "<group>"; };
+		85F9B870232A2F0500124716 /* PhotoCommentsLocalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCommentsLocalService.swift; sourceTree = "<group>"; };
+		85F9B878232A38F800124716 /* PhotosLocalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosLocalTask.swift; sourceTree = "<group>"; };
+		85F9B87B232A390100124716 /* PhotosTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTaskProtocol.swift; sourceTree = "<group>"; };
+		85F9B87C232A390100124716 /* PhotosNetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosNetworkTask.swift; sourceTree = "<group>"; };
+		85F9B881232A392400124716 /* GetPhotosLocalOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPhotosLocalOperation.swift; sourceTree = "<group>"; };
+		85F9B885232A392C00124716 /* GetPhotosOperationRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPhotosOperationRequestBuilder.swift; sourceTree = "<group>"; };
+		85F9B886232A392C00124716 /* GetPhotosOperationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPhotosOperationModel.swift; sourceTree = "<group>"; };
+		85F9B887232A392C00124716 /* GetPhotosOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPhotosOperation.swift; sourceTree = "<group>"; };
+		85F9B88B232A545500124716 /* PhotosTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTaskModel.swift; sourceTree = "<group>"; };
+		85F9B88D232A589E00124716 /* PhotoCommentsTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCommentsTaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,6 +570,9 @@
 		28CAA71322F7F99C00C1B69F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				85F9B82E232A2AF500124716 /* Address */,
+				85F9B830232A2AF500124716 /* Collection */,
+				85F9B832232A2AF600124716 /* Comment */,
 				28CAA71422F7F99C00C1B69F /* GeoJSON */,
 				28CAA72722F7F99C00C1B69F /* Location */,
 				28CAA72922F7F99C00C1B69F /* User */,
@@ -622,6 +727,7 @@
 		28CAA75922F81D9200C1B69F /* Operations */ = {
 			isa = PBXGroup;
 			children = (
+				85F9B7EF232A299400124716 /* Local */,
 				28CAA75A22F81D9200C1B69F /* Parse */,
 				28CAA75E22F81D9200C1B69F /* Network */,
 				28CAA77022F81D9200C1B69F /* Base */,
@@ -649,6 +755,12 @@
 		28CAA75E22F81D9200C1B69F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				85F9B883232A392C00124716 /* Photos */,
+				85F9B808232A2A3000124716 /* Collection */,
+				85F9B811232A2A3000124716 /* Comments */,
+				85F9B816232A2A3100124716 /* Image */,
+				85F9B80D232A2A3000124716 /* Location Address */,
+				85F9B81A232A2A3100124716 /* Location Entities */,
 				28CAA75F22F81D9200C1B69F /* Geojson Tile */,
 				28CAA76722F81D9200C1B69F /* Geo Entity */,
 				28CAA76B22F81D9200C1B69F /* Photo */,
@@ -787,6 +899,7 @@
 		3549BB161DA3890B00C63030 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				85F9B837232A2CCD00124716 /* Tasks */,
 				28CAA78422F824F500C1B69F /* Environment */,
 				28CAA75922F81D9200C1B69F /* Operations */,
 				28CAA71322F7F99C00C1B69F /* Models */,
@@ -838,6 +951,430 @@
 				359649021FB18CBF00FC7ADC /* STPhotoCore.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		85F9B7EF232A299400124716 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B87F232A392400124716 /* Photos */,
+				85F9B7F0232A299400124716 /* Location Entities */,
+				85F9B7F3232A299400124716 /* Comments */,
+				85F9B7F6232A299400124716 /* Collection */,
+				85F9B7F9232A299400124716 /* Location Address */,
+				85F9B7FC232A299400124716 /* Image */,
+				85F9B7FF232A299400124716 /* Photo */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		85F9B7F0232A299400124716 /* Location Entities */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7F1232A299400124716 /* Get */,
+			);
+			path = "Location Entities";
+			sourceTree = "<group>";
+		};
+		85F9B7F1232A299400124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7F2232A299400124716 /* GetLocationEntitiesLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B7F3232A299400124716 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7F4232A299400124716 /* Get */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		85F9B7F4232A299400124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7F5232A299400124716 /* GetCommentsLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B7F6232A299400124716 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7F7232A299400124716 /* Get */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		85F9B7F7232A299400124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7F8232A299400124716 /* GetCollectionLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B7F9232A299400124716 /* Location Address */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7FA232A299400124716 /* Get */,
+			);
+			path = "Location Address";
+			sourceTree = "<group>";
+		};
+		85F9B7FA232A299400124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7FB232A299400124716 /* GetLocationAddressLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B7FC232A299400124716 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7FD232A299400124716 /* Get */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		85F9B7FD232A299400124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B7FE232A299400124716 /* GetImageLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B7FF232A299400124716 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B800232A299400124716 /* Get */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		85F9B800232A299400124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B801232A299400124716 /* GetPhotoLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B808232A2A3000124716 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B809232A2A3000124716 /* Get */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		85F9B809232A2A3000124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B80A232A2A3000124716 /* GetCollectionOperationRequestBuilder.swift */,
+				85F9B80B232A2A3000124716 /* GetCollectionOperationModel.swift */,
+				85F9B80C232A2A3000124716 /* GetCollectionOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B80D232A2A3000124716 /* Location Address */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B80E232A2A3000124716 /* Get */,
+			);
+			path = "Location Address";
+			sourceTree = "<group>";
+		};
+		85F9B80E232A2A3000124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B80F232A2A3000124716 /* GetLocationAddressOperation.swift */,
+				85F9B810232A2A3000124716 /* GetLocationAddressOperationModel.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B811232A2A3000124716 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B812232A2A3000124716 /* Get */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		85F9B812232A2A3000124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B813232A2A3000124716 /* GetCommentsOperationRequestBuilder.swift */,
+				85F9B814232A2A3000124716 /* GetCommentsOperation.swift */,
+				85F9B815232A2A3000124716 /* GetCommentsOperationModel.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B816232A2A3100124716 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B817232A2A3100124716 /* Get */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		85F9B817232A2A3100124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B818232A2A3100124716 /* GetImageOperation.swift */,
+				85F9B819232A2A3100124716 /* GetImageOperationModel.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B81A232A2A3100124716 /* Location Entities */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B81B232A2A3100124716 /* Get */,
+			);
+			path = "Location Entities";
+			sourceTree = "<group>";
+		};
+		85F9B81B232A2A3100124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B81C232A2A3100124716 /* GetLocationEntitiesOperationParseBuilder.swift */,
+				85F9B81D232A2A3100124716 /* GetLocationEntitiesOperationModel.swift */,
+				85F9B81E232A2A3100124716 /* GetLocationEntitiesOperationRequestBuilder.swift */,
+				85F9B81F232A2A3100124716 /* GetLocationEntitiesOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B82E232A2AF500124716 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B82F232A2AF500124716 /* STAddress.swift */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		85F9B830232A2AF500124716 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B831232A2AF500124716 /* STCollection.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		85F9B832232A2AF600124716 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B833232A2AF600124716 /* STComment.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		85F9B837232A2CCD00124716 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B83A232A2CFD00124716 /* Configurator */,
+				85F9B838232A2CFD00124716 /* Local */,
+				85F9B839232A2CFD00124716 /* Network */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		85F9B838232A2CFD00124716 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B877232A38F800124716 /* Photos */,
+				85F9B869232A2F0400124716 /* Collection */,
+				85F9B86F232A2F0500124716 /* Comments */,
+				85F9B867232A2F0400124716 /* Image */,
+				85F9B865232A2F0400124716 /* Location Address */,
+				85F9B86B232A2F0500124716 /* Location Entities */,
+				85F9B86D232A2F0500124716 /* Photo */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		85F9B839232A2CFD00124716 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B87A232A390100124716 /* Photos */,
+				85F9B850232A2EE900124716 /* Collection */,
+				85F9B847232A2EE900124716 /* Comments */,
+				85F9B84D232A2EE900124716 /* Image */,
+				85F9B84A232A2EE900124716 /* Location Address */,
+				85F9B853232A2EE900124716 /* Location Entities */,
+				85F9B856232A2EE900124716 /* Photo */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		85F9B83A232A2CFD00124716 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B83B232A2D1100124716 /* TaskConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		85F9B847232A2EE900124716 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B88D232A589E00124716 /* PhotoCommentsTaskModel.swift */,
+				85F9B848232A2EE900124716 /* PhotoCommentsTaskProtocol.swift */,
+				85F9B849232A2EE900124716 /* PhotoCommentsNetworkTask.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		85F9B84A232A2EE900124716 /* Location Address */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B84B232A2EE900124716 /* LocationAddressTaskProtocol.swift */,
+				85F9B84C232A2EE900124716 /* LocationAddressNetworkTask.swift */,
+			);
+			path = "Location Address";
+			sourceTree = "<group>";
+		};
+		85F9B84D232A2EE900124716 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B84E232A2EE900124716 /* ImageNetworkTask.swift */,
+				85F9B84F232A2EE900124716 /* ImageTaskProtocol.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		85F9B850232A2EE900124716 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B851232A2EE900124716 /* PhotoCollectionTaskProtocol.swift */,
+				85F9B852232A2EE900124716 /* PhotoCollectionNetworkTask.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		85F9B853232A2EE900124716 /* Location Entities */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B854232A2EE900124716 /* LocationEntitiesNetworkTask.swift */,
+				85F9B855232A2EE900124716 /* LocationEntitiesTaskProtocol.swift */,
+			);
+			path = "Location Entities";
+			sourceTree = "<group>";
+		};
+		85F9B856232A2EE900124716 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B857232A2EE900124716 /* PhotoTaskProtocol.swift */,
+				85F9B858232A2EE900124716 /* PhotoNetworkTask.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		85F9B865232A2F0400124716 /* Location Address */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B866232A2F0400124716 /* LocationAddressLocalService.swift */,
+			);
+			path = "Location Address";
+			sourceTree = "<group>";
+		};
+		85F9B867232A2F0400124716 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B868232A2F0400124716 /* ImageLocalService.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		85F9B869232A2F0400124716 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B86A232A2F0400124716 /* PhotoCollectionLocalTask.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		85F9B86B232A2F0500124716 /* Location Entities */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B86C232A2F0500124716 /* LocationEntitiesLocalService.swift */,
+			);
+			path = "Location Entities";
+			sourceTree = "<group>";
+		};
+		85F9B86D232A2F0500124716 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B86E232A2F0500124716 /* PhotoLocalService.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		85F9B86F232A2F0500124716 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B870232A2F0500124716 /* PhotoCommentsLocalService.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		85F9B877232A38F800124716 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B878232A38F800124716 /* PhotosLocalTask.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		85F9B87A232A390100124716 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B87B232A390100124716 /* PhotosTaskProtocol.swift */,
+				85F9B87C232A390100124716 /* PhotosNetworkTask.swift */,
+				85F9B88B232A545500124716 /* PhotosTaskModel.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		85F9B87F232A392400124716 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B880232A392400124716 /* Get */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		85F9B880232A392400124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B881232A392400124716 /* GetPhotosLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85F9B883232A392C00124716 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B884232A392C00124716 /* Get */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		85F9B884232A392C00124716 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85F9B885232A392C00124716 /* GetPhotosOperationRequestBuilder.swift */,
+				85F9B886232A392C00124716 /* GetPhotosOperationModel.swift */,
+				85F9B887232A392C00124716 /* GetPhotosOperation.swift */,
+			);
+			path = Get;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1142,6 +1679,8 @@
 				28CAA75622F7FA1C00C1B69F /* STCarouselOverlay.swift in Sources */,
 				28CAA6FB22F7F94F00C1B69F /* GeoJSONFeature+EntityLevel.swift in Sources */,
 				28CAA70E22F7F94F00C1B69F /* GeoJSONGeometry+ContainsLocation.swift in Sources */,
+				85F9B82C232A2A3100124716 /* GetLocationEntitiesOperationRequestBuilder.swift in Sources */,
+				85F9B825232A2A3100124716 /* GetCommentsOperationRequestBuilder.swift in Sources */,
 				28CAA70A22F7F94F00C1B69F /* MKMapRect+SpiralTiles.swift in Sources */,
 				28CAA77F22F81D9200C1B69F /* GetPhotoOperationModel.swift in Sources */,
 				28CAA70922F7F94F00C1B69F /* MKMapRect+Tiles.swift in Sources */,
@@ -1149,65 +1688,114 @@
 				28CAA75422F7F99C00C1B69F /* TileCoordinate.swift in Sources */,
 				28CAA6F722F7F94F00C1B69F /* Array+FeatureAtLocation.swift in Sources */,
 				28CAA70622F7F94F00C1B69F /* MKMapRect+BoundingBox.swift in Sources */,
+				85F9B88E232A589E00124716 /* PhotoCommentsTaskModel.swift in Sources */,
 				28CAA6FE22F7F94F00C1B69F /* GeoJSONObject+Features.swift in Sources */,
+				85F9B864232A2EE900124716 /* PhotoNetworkTask.swift in Sources */,
+				85F9B872232A2F0500124716 /* ImageLocalService.swift in Sources */,
+				85F9B824232A2A3100124716 /* GetLocationAddressOperationModel.swift in Sources */,
 				28CAA74922F7F99C00C1B69F /* GeoJSONGeometryCollection.swift in Sources */,
 				28CAA74822F7F99C00C1B69F /* GeoJSONMultiPolygon.swift in Sources */,
 				28CAA77C22F81D9200C1B69F /* GetGeoEntityRequestBuilder.swift in Sources */,
+				85F9B859232A2EE900124716 /* PhotoCommentsTaskProtocol.swift in Sources */,
+				85F9B827232A2A3100124716 /* GetCommentsOperationModel.swift in Sources */,
 				28CAA78922F8257200C1B69F /* EndpointsBuilder.swift in Sources */,
+				85F9B860232A2EE900124716 /* PhotoCollectionNetworkTask.swift in Sources */,
 				28CAA74722F7F99C00C1B69F /* GeoJSONPoint.swift in Sources */,
+				85F9B829232A2A3100124716 /* GetImageOperationModel.swift in Sources */,
 				28CAA75022F7F99C00C1B69F /* Parameters.swift in Sources */,
 				28CAA6F522F7F94F00C1B69F /* MKMapView+VisibleTiles.swift in Sources */,
 				28CAA6FA22F7F94F00C1B69F /* GeoJSONFeature+ContainsLocation.swift in Sources */,
 				28E9303D22F88370001D5ADB /* STPhoto+ImageUrlOfSize.swift in Sources */,
+				85F9B863232A2EE900124716 /* PhotoTaskProtocol.swift in Sources */,
 				28CAA70422F7F94F00C1B69F /* URL+Parameters.swift in Sources */,
+				85F9B871232A2F0500124716 /* LocationAddressLocalService.swift in Sources */,
 				28CAA78122F81D9200C1B69F /* GetPhotoOperationRequestBuilder.swift in Sources */,
 				28CAA74E22F7F99C00C1B69F /* GeoEntity.swift in Sources */,
 				28CAA6FD22F7F94F00C1B69F /* GeoJSONObject+EntityLevel.swift in Sources */,
 				28CAA75322F7F99C00C1B69F /* STPhoto.swift in Sources */,
 				28CAA78322F81D9200C1B69F /* OperationError.swift in Sources */,
+				85F9B879232A38F800124716 /* PhotosLocalTask.swift in Sources */,
 				28CAA75222F7F99C00C1B69F /* RepeatingTimer.swift in Sources */,
+				85F9B802232A299400124716 /* GetLocationEntitiesLocalOperation.swift in Sources */,
 				28CAA6F322F7F94F00C1B69F /* MKMapView+ZoomLevel.swift in Sources */,
 				359649031FB18CC000FC7ADC /* STPhotoCore.swift in Sources */,
 				28CAA6F922F7F94F00C1B69F /* Array+BestFeature.swift in Sources */,
+				85F9B876232A2F0500124716 /* PhotoCommentsLocalService.swift in Sources */,
+				85F9B820232A2A3100124716 /* GetCollectionOperationRequestBuilder.swift in Sources */,
+				85F9B88C232A545500124716 /* PhotosTaskModel.swift in Sources */,
+				85F9B873232A2F0500124716 /* PhotoCollectionLocalTask.swift in Sources */,
 				28CAA70C22F7F94F00C1B69F /* CLLocationCoordinate2D+Equatable.swift in Sources */,
+				85F9B822232A2A3100124716 /* GetCollectionOperation.swift in Sources */,
 				28CAA6F122F7F94F00C1B69F /* DateFormatter+ISO8601.swift in Sources */,
 				28CAA74522F7F99C00C1B69F /* GeoJSONLineString.swift in Sources */,
 				28CAA6F622F7F94F00C1B69F /* Array+Tail.swift in Sources */,
 				28CAA74D22F7F99C00C1B69F /* EntityLevel.swift in Sources */,
 				28CAA74622F7F99C00C1B69F /* GeoJSONPolygon.swift in Sources */,
+				85F9B834232A2AF600124716 /* STAddress.swift in Sources */,
+				85F9B82A232A2A3100124716 /* GetLocationEntitiesOperationParseBuilder.swift in Sources */,
+				85F9B875232A2F0500124716 /* PhotoLocalService.swift in Sources */,
 				28CAA73D22F7F99C00C1B69F /* GeoJSONParser.swift in Sources */,
+				85F9B807232A299400124716 /* GetPhotoLocalOperation.swift in Sources */,
 				28CAA6FF22F7F94F00C1B69F /* MKClusterAnnotation+SameCoordinate.swift in Sources */,
 				28CAA6F822F7F94F00C1B69F /* Array+Synchronized.swift in Sources */,
 				28CAA71222F7F94F00C1B69F /* MKPolygon+MapPoint.swift in Sources */,
 				28CAA74422F7F99C00C1B69F /* GeoJSONMultiPoint.swift in Sources */,
+				85F9B823232A2A3100124716 /* GetLocationAddressOperation.swift in Sources */,
 				28CAA74322F7F99C00C1B69F /* GeoJSONMultiLineString.swift in Sources */,
+				85F9B803232A299400124716 /* GetCommentsLocalOperation.swift in Sources */,
+				85F9B805232A299400124716 /* GetLocationAddressLocalOperation.swift in Sources */,
 				28CAA70B22F7F94F00C1B69F /* MKMapRect+Coordinates.swift in Sources */,
 				28CAA6F022F7F94F00C1B69F /* EntityLevel+CoordinateSpan.swift in Sources */,
 				28CAA77822F81D9200C1B69F /* GetGeojsonTileOperationModel.swift in Sources */,
 				28CAA77522F81D9200C1B69F /* Tokenizer.swift in Sources */,
 				28CAA77E22F81D9200C1B69F /* GetGeoEntityOperationModel.swift in Sources */,
 				28CAA70022F7F94F00C1B69F /* DefaultReuseIdentifier.swift in Sources */,
+				85F9B826232A2A3100124716 /* GetCommentsOperation.swift in Sources */,
 				28CAA73E22F7F99C00C1B69F /* GeoJSON.swift in Sources */,
 				28CAA70222F7F94F00C1B69F /* STCarousel+ShouldChange.swift in Sources */,
 				28CAA74C22F7F99C00C1B69F /* STCarousel.swift in Sources */,
+				85F9B85D232A2EE900124716 /* ImageNetworkTask.swift in Sources */,
+				85F9B87D232A390200124716 /* PhotosTaskProtocol.swift in Sources */,
+				85F9B874232A2F0500124716 /* LocationEntitiesLocalService.swift in Sources */,
+				85F9B821232A2A3100124716 /* GetCollectionOperationModel.swift in Sources */,
 				28CAA74B22F7F99C00C1B69F /* STUser.swift in Sources */,
+				85F9B861232A2EE900124716 /* LocationEntitiesNetworkTask.swift in Sources */,
 				28CAA74022F7F99C00C1B69F /* GeoJSONFeature.swift in Sources */,
+				85F9B82B232A2A3100124716 /* GetLocationEntitiesOperationModel.swift in Sources */,
 				28CAA70F22F7F94F00C1B69F /* String+Localized.swift in Sources */,
+				85F9B806232A299400124716 /* GetImageLocalOperation.swift in Sources */,
+				85F9B85E232A2EE900124716 /* ImageTaskProtocol.swift in Sources */,
 				28CAA75122F7F99C00C1B69F /* Coordinate.swift in Sources */,
 				28CAA75822F7FA3300C1B69F /* STCarouselOverlayModel.swift in Sources */,
 				28CAA6FC22F7F94F00C1B69F /* MKTileOverlayPath+Subtiles.swift in Sources */,
+				85F9B88A232A392C00124716 /* GetPhotosOperation.swift in Sources */,
 				28CAA78022F81D9200C1B69F /* GetPhotoOperation.swift in Sources */,
+				85F9B85C232A2EE900124716 /* LocationAddressNetworkTask.swift in Sources */,
 				28CAA78222F81D9200C1B69F /* AsynchronousOperation.swift in Sources */,
+				85F9B836232A2AF600124716 /* STComment.swift in Sources */,
 				28CAA70D22F7F94F00C1B69F /* CLLocationCoordinate2D+Distance.swift in Sources */,
+				85F9B882232A392400124716 /* GetPhotosLocalOperation.swift in Sources */,
+				85F9B862232A2EE900124716 /* LocationEntitiesTaskProtocol.swift in Sources */,
 				28CAA70822F7F94F00C1B69F /* MKMapRect+Area.swift in Sources */,
 				28CAA77622F81D9200C1B69F /* WKTReader.swift in Sources */,
+				85F9B87E232A390200124716 /* PhotosNetworkTask.swift in Sources */,
+				85F9B888232A392C00124716 /* GetPhotosOperationRequestBuilder.swift in Sources */,
+				85F9B85B232A2EE900124716 /* LocationAddressTaskProtocol.swift in Sources */,
 				28CAA74F22F7F99C00C1B69F /* GeoLabel.swift in Sources */,
+				85F9B82D232A2A3100124716 /* GetLocationEntitiesOperation.swift in Sources */,
+				85F9B889232A392C00124716 /* GetPhotosOperationModel.swift in Sources */,
 				28CAA78622F824F600C1B69F /* Environment.swift in Sources */,
+				85F9B85F232A2EE900124716 /* PhotoCollectionTaskProtocol.swift in Sources */,
 				28CAA77722F81D9200C1B69F /* GetGeojsonTileOperationRequestBuilder.swift in Sources */,
 				28CAA74A22F7F99C00C1B69F /* STLocation.swift in Sources */,
+				85F9B85A232A2EE900124716 /* PhotoCommentsNetworkTask.swift in Sources */,
 				28CAA74222F7F99C00C1B69F /* GeoJSONFeatureCollection.swift in Sources */,
+				85F9B804232A299400124716 /* GetCollectionLocalOperation.swift in Sources */,
+				85F9B83C232A2D1100124716 /* TaskConfigurator.swift in Sources */,
 				28CAA6EF22F7F94F00C1B69F /* MKPolyline+MapPoint.swift in Sources */,
+				85F9B835232A2AF600124716 /* STCollection.swift in Sources */,
 				28CAA70522F7F94F00C1B69F /* UIViewController+Show.swift in Sources */,
+				85F9B828232A2A3100124716 /* GetImageOperation.swift in Sources */,
 				28CAA73C22F7F99C00C1B69F /* GeoJSONBoundingBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

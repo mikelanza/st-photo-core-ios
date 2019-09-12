@@ -1,6 +1,6 @@
 //
 //  GetGeoEntityOperation.swift
-//  STPhotoCore
+//  STPhotoCore-iOS
 //
 //  Created by Crasneanu Cristian on 23/01/2019.
 //  Copyright © 2019 mikelanza. All rights reserved.

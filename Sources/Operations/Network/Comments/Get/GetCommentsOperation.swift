@@ -1,37 +1,32 @@
 //
-//  GetPhotoOperation.swift
+//  GetCommentsOperation.swift
 //  STPhotoCore-iOS
 //
-//  Created by Dimitri Strauneanu on 20/05/2019.
-//  Copyright © 2019 mikelanza. All rights reserved.
+//  Created by Dimitri Strauneanu on 02/08/2019.
+//  Copyright © 2019 Streetography. All rights reserved.
 //
 
 import Foundation
 
-public class GetPhotoOperation: AsynchronousOperation {
-    private let model: GetPhotoOperationModel.Request
-    private var operationCompletionHandler: (Result<GetPhotoOperationModel.Response, OperationError>) -> Void
+class GetCommentsOperation: AsynchronousOperation {
+    private let model: GetCommentsOperationModel.Request
+    private var operationCompletionHandler: (Result<GetCommentsOperationModel.Response, OperationError>) -> Void
     
     private var task: URLSessionDataTask?
     
-    public init(model: GetPhotoOperationModel.Request, completionHandler: @escaping (Result<GetPhotoOperationModel.Response, OperationError>) -> Void) {
+    init(model: GetCommentsOperationModel.Request, completionHandler: @escaping (Result<GetCommentsOperationModel.Response, OperationError>) -> Void) {
         self.model = model
         self.operationCompletionHandler = completionHandler
         super.init()
     }
     
-    override public func main() {
-        let request = GetPhotoOperationRequestBuilder(model: self.model).request()
+    override func main() {
+        let request = GetCommentsOperationRequestBuilder(model: self.model).request()
         
         self.task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             self.verifyData(data: data)
         }
         self.task?.resume()
-    }
-    
-    override public func cancel() {
-        self.task?.cancel()
-        super.cancel()
     }
     
     private func verifyData(data: Data?) {
@@ -46,25 +41,21 @@ public class GetPhotoOperation: AsynchronousOperation {
         do {
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .formatted(DateFormatter.iso8601)
-            let response = try decoder.decode(GetPhotoOperationModel.Response.self, from: data)
+            let response = try decoder.decode(GetCommentsOperationModel.Response.self, from: data)
             self.successBlock(response: response)
         } catch {
             self.cannotParseResponseErrorBlock()
         }
     }
     
-    private func shouldCancelOperation() -> Bool {
-        if self.isCancelled {
-            self.operationCompletionHandler(Result.failure(OperationError.operationCancelled))
-            self.completeOperation()
-            return true
-        }
-        return false
+    override func cancel() {
+        self.task?.cancel()
+        super.cancel()
     }
     
     // MARK: - Success
     
-    private func successBlock(response: GetPhotoOperationModel.Response) {
+    private func successBlock(response: GetCommentsOperationModel.Response) {
         self.operationCompletionHandler(Result.success(response))
         self.completeOperation()
     }

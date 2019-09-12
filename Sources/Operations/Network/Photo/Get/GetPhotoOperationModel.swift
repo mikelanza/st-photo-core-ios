@@ -1,6 +1,6 @@
 //
 //  GetPhotoOperationModel.swift
-//  STPhotoCore
+//  STPhotoCore-iOS
 //
 //  Created by Dimitri Strauneanu on 20/05/2019.
 //  Copyright © 2019 mikelanza. All rights reserved.

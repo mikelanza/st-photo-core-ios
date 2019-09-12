@@ -1,22 +1,22 @@
 //
-//  GetPhotoOperationRequestBuilder.swift
+//  GetCollectionOperationRequestBuilder.swift
 //  STPhotoCore-iOS
 //
-//  Created by Dimitri Strauneanu on 20/05/2019.
-//  Copyright © 2019 mikelanza. All rights reserved.
+//  Created by Dimitri Strauneanu on 02/08/2019.
+//  Copyright © 2019 Streetography. All rights reserved.
 //
 
 import Foundation
 
-public class GetPhotoOperationRequestBuilder {
-    private let model: GetPhotoOperationModel.Request
+class GetCollectionOperationRequestBuilder {
+    private let model: GetCollectionOperationModel.Request
     
-    public init(model: GetPhotoOperationModel.Request) {
+    init(model: GetCollectionOperationModel.Request) {
         self.model = model
     }
     
-    public func request() -> URLRequest {
-        let urlString = EndpointsBuilder.shared.getPhotoEndpoint(photoId: self.model.photoId)
+    func request() -> URLRequest {
+        let urlString = EndpointsBuilder.shared.getCollectionEndpoint()
         var urlComponents = URLComponents(string: urlString)!
         urlComponents.queryItems = self.parameters().map({ URLQueryItem(name: $0.key, value: $0.value) })
         let url = urlComponents.url!
@@ -32,7 +32,7 @@ public class GetPhotoOperationRequestBuilder {
     private func parameters() -> [String: String] {
         return [
             "apisecret": EndpointsBuilder.apiSecret,
-            "includeOwner": String(self.model.includeUser)
+            "collectionID": self.model.collectionId
         ]
     }
 }
