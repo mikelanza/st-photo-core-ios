@@ -9,9 +9,9 @@
 import Foundation
 
 public struct STCollection: Codable {
-    var id: String
+    public var id: String
     
-    var name: String = ""
+    public var name: String = ""
     
     public init(id: String, name: String = "") {
         self.id = id
@@ -24,7 +24,7 @@ public struct STCollection: Codable {
         self.name = try container.decodeWrapper(key: .name, defaultValue: "")
     }
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case id = "objectId"
         case name = "name"
     }

@@ -9,12 +9,12 @@
 import Foundation
 
 public struct STAddress {
-    var location: STLocation?
+    public var location: STLocation?
     
-    var street: String?
-    var city: String?
-    var state: String?
-    var country: String?
+    public var street: String?
+    public var city: String?
+    public var state: String?
+    public var country: String?
     
     public init() {
         

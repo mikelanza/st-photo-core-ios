@@ -9,12 +9,12 @@
 import Foundation
 
 public struct STComment: Codable {
-    var id: String
-    var createdAt: Date
+    public var id: String
+    public var createdAt: Date
     
-    var user: STUser?
-    var photoId: String?
-    var text: String = ""
+    public var user: STUser?
+    public var photoId: String?
+    public var text: String = ""
     
     public init(id: String) {
         self.init(id: id, createdAt: Date())
@@ -25,7 +25,7 @@ public struct STComment: Codable {
         self.createdAt = createdAt
     }
     
-    private enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case id = "objectId"
         case createdAt = "createdAt"
         case user = "user"
