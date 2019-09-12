@@ -24,19 +24,19 @@ public class TaskConfigurator {
     }
     
     public func imageTask() -> ImageTaskProtocol {
-        return self.shouldRunLocally ?  ImageLocalTask() : ImageNetworkTask()
+        return self.shouldRunLocally ? ImageLocalTask() : ImageNetworkTask()
     }
     
     public func photoCollectionTask() -> PhotoCollectionTaskProtocol {
-        return self.shouldRunLocally ?  PhotoCollectionLocalTask() : PhotoCollectionNetworkTask()
+        return self.shouldRunLocally ? PhotoCollectionLocalTask() : PhotoCollectionNetworkTask()
     }
     
     public func locationAddressTask() -> LocationAddressTaskProtocol {
-        return self.shouldRunLocally ?  LocationAddressLocalTask() : LocationAddressNetworkTask()
+        return self.shouldRunLocally ? LocationAddressLocalTask() : LocationAddressNetworkTask()
     }
     
     public func locationEntitiesTask() -> LocationEntitiesTaskProtocol {
-        return self.shouldRunLocally ?  LocationEntitiesLocalTask() : LocationEntitiesNetworkTask()
+        return self.shouldRunLocally ? LocationEntitiesLocalTask() : LocationEntitiesNetworkTask()
     }
     
     public func photosTask() -> PhotosTaskProtocol {
