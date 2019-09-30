@@ -5,7 +5,7 @@
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-**STPhotoCore** is an iOS framework designed to include all the common code (models, extensions, operations and tasks) for the STPhotoMap, STPhotoDetails frameworks for iOS.
+**STPhotoCore** is an iOS framework designed to include all the common code (models, extensions, operations and tasks) for the [STPhotoMap](https://github.com/mikelanza/st-photo-map-ios), [STPhotoDetails](https://github.com/mikelanza/st-photo-details-ios), [STPhotoCollection](https://github.com/mikelanza/st-photo-collection-ios) frameworks for iOS.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
