@@ -1,20 +1,14 @@
 # STPhotoCore
 
-[![Platforms](https://img.shields.io/cocoapods/p/STPhotoCore.svg)](https://cocoapods.org/pods/STPhotoCore)
-[![License](https://img.shields.io/cocoapods/l/STPhotoCore.svg)](https://raw.githubusercontent.com/mikelanza/st-photo-core-ios/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mikelanza/st-photo-core-ios/blob/master/LICENSE)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/STPhotoCore.svg)](https://cocoapods.org/pods/STPhotoCore)
 
-[![Travis](https://img.shields.io/travis/mikelanza/st-photo-core-ios/master.svg)](https://travis-ci.org/mikelanza/st-photo-core-ios/branches)
-[![SwiftFrameworkTemplate](https://img.shields.io/badge/SwiftFramework-Template-red.svg)](http://github.com/RahulKatariya/SwiftFrameworkTemplate)
-
-Common code for STPhotoMap, STPhotoDetails frameworks for iOS
+**STPhotoCore** is an iOS framework designed to include all the common code (models, extensions, operations and tasks) for the STPhotoMap, STPhotoDetails frameworks for iOS.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 
 ## Requirements
@@ -34,14 +28,14 @@ Common code for STPhotoMap, STPhotoDetails frameworks for iOS
 $ gem install cocoapods
 ```
 
-To integrate STPhotoCore into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate **STPhotoCore** into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 
-pod 'STPhotoCore', '~> 0.0.1'
+pod 'STPhotoCore', '~> 0.1.4'
 ```
 
 Then, run the following command:
@@ -64,10 +58,10 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate STPhotoCore into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate **STPhotoCore** into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "mikelanza/st-photo-core-ios" ~> 0.0.1
+github "mikelanza/st-photo-core-ios" ~> 0.1.4
 ```
 
 </details>
@@ -75,17 +69,17 @@ github "mikelanza/st-photo-core-ios" ~> 0.0.1
 <details>
   <summary><strong>Swift Package Manager</strong></summary>
 
-To use STPhotoCore as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
+To use **STPhotoCore** as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
 
 ``` swift
-// swift-tools-version:4.2
+// swift-tools-version:5.0
 
 import PackageDescription
 
 let package = Package(
     name: "HelloSTPhotoCore",
     dependencies: [
-        .package(url: "https://github.com/mikelanza/st-photo-core-ios.git", .upToNextMajor(from: "0.0.1"))
+    .package(url: "https://github.com/mikelanza/st-photo-core-ios.git", .upToNextMajor(from: "0.1.4"))
     ],
     targets: [
         .target(name: "HelloSTPhotoCore", dependencies: ["STPhotoCore"])
@@ -96,7 +90,7 @@ let package = Package(
 
 ### Manually
 
-If you prefer not to use either of the aforementioned dependency managers, you can integrate STPhotoCore into your project manually.
+If you prefer not to use either of the aforementioned dependency managers, you can integrate **STPhotoCore** into your project manually.
 
 <details>
   <summary><strong>Git Submodules</strong></summary><p>
@@ -107,7 +101,7 @@ If you prefer not to use either of the aforementioned dependency managers, you c
 $ git init
 ```
 
-- Add STPhotoCore as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
+- Add **STPhotoCore** as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
 $ git submodule add https://github.com/mikelanza/st-photo-core-ios.git
@@ -146,16 +140,14 @@ $ git submodule update --init --recursive
 
 </p></details>
 
-## Usage
-
 ## Contributing
 
 Issues and pull requests are welcome!
 
 ## Author
 
-[@Streetography](https://streetography.com)
+[Streetography](https://streetography.com)
 
 ## License
 
-STPhotoCore is released under the MIT license. See [LICENSE](https://github.com/mikelanza/st-photo-core-ios/blob/master/LICENSE) for details.
+**STPhotoCore** is released under the MIT license. See [LICENSE](https://github.com/mikelanza/st-photo-core-ios/blob/master/LICENSE) for details.
